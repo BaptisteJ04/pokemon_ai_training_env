@@ -1,0 +1,22 @@
+# General configuration. The `emulator` section lives in emulator.yaml.
+random_seed: 42
+
+logging:
+  level: INFO
+  file: null
+
+ui:                          # refresh rates, they do not affect the agent
+  frame_rate: 30             # screen images sent to the Game View per second
+  state_rate: 10             # state and map updates per second
+  observation_interval: 8    # frames between two reads of the game state
+  log_max_rows: 5000
+
+game:
+  game: pokemon_red          # game adapter
+  reveal_mode: viewport      # viewport | full_map_on_entry
+
+run:
+  agent: random              # registry name (random, idle) or package.module:Class or file.py:Class
+  data_dir: data/agents      # what each agent learns, kept between runs
+
+agents: {}                   # agent options: agents.<name>.<option>

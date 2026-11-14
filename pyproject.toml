@@ -1,0 +1,63 @@
+[project]
+name = "pokemon-ai"
+version = "0.1.0"
+description = "A training environment and desktop interface for AI agents that play Pokemon Red."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["pokemon", "game-ai", "reinforcement-learning", "pyboy", "emulator"]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pyboy>=2.9.0",
+    "pydantic>=2.14.2",
+    "pyside6>=6.12.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+pokemon-ai = "pokemon_ai.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pokemon_ai"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "N", "RUF"]
+# Typographie française et caractères du jeu (×, –, …) dans les textes et commentaires.
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+# Méthodes redéfinies de Qt (paintEvent, rowCount…) : leurs noms sont imposés.
+"src/pokemon_ai/ui/**" = ["N802"]
+"tests/**/test_ui*.py" = ["N802"]
+# Classe de base des agents : crochets facultatifs, vides par défaut.
+"src/pokemon_ai/agents/base.py" = ["B027"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pokemon_ai", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -m 'not long'"
+filterwarnings = ["ignore:Using SDL2 binaries:UserWarning"]
+markers = [
+    "rom: test nécessitant la ROM Pokémon Red (US), ignoré si elle est absente",
+    "long: partie autonome de plusieurs minutes, lancée à part (pytest -m long)",
+]
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.170.14",
+    "pytest>=9.2.0",
+    "pytest-qt>=4.5.0",
+    "ruff>=0.17.3",
+]

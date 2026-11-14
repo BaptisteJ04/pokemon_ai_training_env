@@ -1,0 +1,8 @@
+rom_path: ROM/Pokemon - Red Version (USA, Europe) (SGB Enhanced).zip
+# SHA-1 of Pokemon Red (USA, Europe), the same as the pret/pokered reference.
+rom_sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a
+headless: false
+speed: 1      # speed multiplier, 0 = unlimited
+scale: 3      # screen zoom
+sound: false  # sound emulation slows the emulator down
+savestate_dir: assets/states

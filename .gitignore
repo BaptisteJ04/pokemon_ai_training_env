@@ -1,0 +1,35 @@
+# ROMs and save files: never commit them
+ROM/
+*.gb
+*.gbc
+*.sav
+*.ram
+
+# Savestates
+*.state
+assets/states/*
+!assets/states/.gitkeep
+
+# Run data (what agents learn, logs)
+/data/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+*.swp

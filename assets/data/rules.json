@@ -1,0 +1,7278 @@
+{
+ "meta": {
+  "rom_sha1": "ea9bcae617fdf159b045185467ae58b2e4a48b9a",
+  "pokered_commit": "0dbf95cd12f5b1511c62ce69efe283000f780a8f",
+  "pokered_symbols_commit": "bd77855a9f6407f47d61d94c5eefff7ac83c05a5",
+  "generator": "tools/extract_game_data.py"
+ },
+ "types": [
+  {
+   "id": 0,
+   "identifier": "NORMAL",
+   "name": "NORMAL"
+  },
+  {
+   "id": 1,
+   "identifier": "FIGHTING",
+   "name": "FIGHTING"
+  },
+  {
+   "id": 2,
+   "identifier": "FLYING",
+   "name": "FLYING"
+  },
+  {
+   "id": 3,
+   "identifier": "POISON",
+   "name": "POISON"
+  },
+  {
+   "id": 4,
+   "identifier": "GROUND",
+   "name": "GROUND"
+  },
+  {
+   "id": 5,
+   "identifier": "ROCK",
+   "name": "ROCK"
+  },
+  {
+   "id": 6,
+   "identifier": "BIRD",
+   "name": "BIRD"
+  },
+  {
+   "id": 7,
+   "identifier": "BUG",
+   "name": "BUG"
+  },
+  {
+   "id": 8,
+   "identifier": "GHOST",
+   "name": "GHOST"
+  },
+  {
+   "id": 20,
+   "identifier": "FIRE",
+   "name": "FIRE"
+  },
+  {
+   "id": 21,
+   "identifier": "WATER",
+   "name": "WATER"
+  },
+  {
+   "id": 22,
+   "identifier": "GRASS",
+   "name": "GRASS"
+  },
+  {
+   "id": 23,
+   "identifier": "ELECTRIC",
+   "name": "ELECTRIC"
+  },
+  {
+   "id": 24,
+   "identifier": "PSYCHIC_TYPE",
+   "name": "PSYCHIC"
+  },
+  {
+   "id": 25,
+   "identifier": "ICE",
+   "name": "ICE"
+  },
+  {
+   "id": 26,
+   "identifier": "DRAGON",
+   "name": "DRAGON"
+  }
+ ],
+ "type_chart": [
+  [
+   21,
+   20,
+   20
+  ],
+  [
+   20,
+   22,
+   20
+  ],
+  [
+   20,
+   25,
+   20
+  ],
+  [
+   22,
+   21,
+   20
+  ],
+  [
+   23,
+   21,
+   20
+  ],
+  [
+   21,
+   5,
+   20
+  ],
+  [
+   4,
+   2,
+   0
+  ],
+  [
+   21,
+   21,
+   5
+  ],
+  [
+   20,
+   20,
+   5
+  ],
+  [
+   23,
+   23,
+   5
+  ],
+  [
+   25,
+   25,
+   5
+  ],
+  [
+   22,
+   22,
+   5
+  ],
+  [
+   24,
+   24,
+   5
+  ],
+  [
+   20,
+   21,
+   5
+  ],
+  [
+   22,
+   20,
+   5
+  ],
+  [
+   21,
+   22,
+   5
+  ],
+  [
+   23,
+   22,
+   5
+  ],
+  [
+   0,
+   5,
+   5
+  ],
+  [
+   0,
+   8,
+   0
+  ],
+  [
+   8,
+   8,
+   20
+  ],
+  [
+   20,
+   7,
+   20
+  ],
+  [
+   20,
+   5,
+   5
+  ],
+  [
+   21,
+   4,
+   20
+  ],
+  [
+   23,
+   4,
+   0
+  ],
+  [
+   23,
+   2,
+   20
+  ],
+  [
+   22,
+   4,
+   20
+  ],
+  [
+   22,
+   7,
+   5
+  ],
+  [
+   22,
+   3,
+   5
+  ],
+  [
+   22,
+   5,
+   20
+  ],
+  [
+   22,
+   2,
+   5
+  ],
+  [
+   25,
+   21,
+   5
+  ],
+  [
+   25,
+   22,
+   20
+  ],
+  [
+   25,
+   4,
+   20
+  ],
+  [
+   25,
+   2,
+   20
+  ],
+  [
+   1,
+   0,
+   20
+  ],
+  [
+   1,
+   3,
+   5
+  ],
+  [
+   1,
+   2,
+   5
+  ],
+  [
+   1,
+   24,
+   5
+  ],
+  [
+   1,
+   7,
+   5
+  ],
+  [
+   1,
+   5,
+   20
+  ],
+  [
+   1,
+   25,
+   20
+  ],
+  [
+   1,
+   8,
+   0
+  ],
+  [
+   3,
+   22,
+   20
+  ],
+  [
+   3,
+   3,
+   5
+  ],
+  [
+   3,
+   4,
+   5
+  ],
+  [
+   3,
+   7,
+   20
+  ],
+  [
+   3,
+   5,
+   5
+  ],
+  [
+   3,
+   8,
+   5
+  ],
+  [
+   4,
+   20,
+   20
+  ],
+  [
+   4,
+   23,
+   20
+  ],
+  [
+   4,
+   22,
+   5
+  ],
+  [
+   4,
+   7,
+   5
+  ],
+  [
+   4,
+   5,
+   20
+  ],
+  [
+   4,
+   3,
+   20
+  ],
+  [
+   2,
+   23,
+   5
+  ],
+  [
+   2,
+   1,
+   20
+  ],
+  [
+   2,
+   7,
+   20
+  ],
+  [
+   2,
+   22,
+   20
+  ],
+  [
+   2,
+   5,
+   5
+  ],
+  [
+   24,
+   1,
+   20
+  ],
+  [
+   24,
+   3,
+   20
+  ],
+  [
+   7,
+   20,
+   5
+  ],
+  [
+   7,
+   22,
+   20
+  ],
+  [
+   7,
+   1,
+   5
+  ],
+  [
+   7,
+   2,
+   5
+  ],
+  [
+   7,
+   24,
+   20
+  ],
+  [
+   7,
+   8,
+   5
+  ],
+  [
+   7,
+   3,
+   20
+  ],
+  [
+   5,
+   20,
+   20
+  ],
+  [
+   5,
+   1,
+   5
+  ],
+  [
+   5,
+   4,
+   5
+  ],
+  [
+   5,
+   2,
+   20
+  ],
+  [
+   5,
+   7,
+   20
+  ],
+  [
+   5,
+   25,
+   20
+  ],
+  [
+   8,
+   0,
+   0
+  ],
+  [
+   8,
+   24,
+   0
+  ],
+  [
+   20,
+   26,
+   5
+  ],
+  [
+   21,
+   26,
+   5
+  ],
+  [
+   23,
+   26,
+   5
+  ],
+  [
+   22,
+   26,
+   5
+  ],
+  [
+   25,
+   26,
+   20
+  ],
+  [
+   26,
+   26,
+   20
+  ]
+ ],
+ "species": [
+  {
+   "id": 153,
+   "dex": 1,
+   "identifier": "BULBASAUR",
+   "name": "BULBASAUR",
+   "base_stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "speed": 45,
+    "special": 65
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 64,
+   "level1_moves": [
+    33,
+    45
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 9,
+   "dex": 2,
+   "identifier": "IVYSAUR",
+   "name": "IVYSAUR",
+   "base_stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 63,
+    "speed": 60,
+    "special": 80
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 141,
+   "level1_moves": [
+    33,
+    45,
+    73
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 154,
+   "dex": 3,
+   "identifier": "VENUSAUR",
+   "name": "VENUSAUR",
+   "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "speed": 80,
+    "special": 100
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 208,
+   "level1_moves": [
+    33,
+    45,
+    73,
+    22
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 176,
+   "dex": 4,
+   "identifier": "CHARMANDER",
+   "name": "CHARMANDER",
+   "base_stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "speed": 65,
+    "special": 50
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 45,
+   "base_exp": 65,
+   "level1_moves": [
+    10,
+    45
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 178,
+   "dex": 5,
+   "identifier": "CHARMELEON",
+   "name": "CHARMELEON",
+   "base_stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "speed": 80,
+    "special": 65
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 45,
+   "base_exp": 142,
+   "level1_moves": [
+    10,
+    45,
+    52
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 180,
+   "dex": 6,
+   "identifier": "CHARIZARD",
+   "name": "CHARIZARD",
+   "base_stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "speed": 100,
+    "special": 85
+   },
+   "types": [
+    20,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 209,
+   "level1_moves": [
+    10,
+    45,
+    52,
+    43
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 177,
+   "dex": 7,
+   "identifier": "SQUIRTLE",
+   "name": "SQUIRTLE",
+   "base_stats": {
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "speed": 43,
+    "special": 50
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 66,
+   "level1_moves": [
+    33,
+    39
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 179,
+   "dex": 8,
+   "identifier": "WARTORTLE",
+   "name": "WARTORTLE",
+   "base_stats": {
+    "hp": 59,
+    "attack": 63,
+    "defense": 80,
+    "speed": 58,
+    "special": 65
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 143,
+   "level1_moves": [
+    33,
+    39,
+    145
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 28,
+   "dex": 9,
+   "identifier": "BLASTOISE",
+   "name": "BLASTOISE",
+   "base_stats": {
+    "hp": 79,
+    "attack": 83,
+    "defense": 100,
+    "speed": 78,
+    "special": 85
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 210,
+   "level1_moves": [
+    33,
+    39,
+    145,
+    55
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 123,
+   "dex": 10,
+   "identifier": "CATERPIE",
+   "name": "CATERPIE",
+   "base_stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "speed": 45,
+    "special": 20
+   },
+   "types": [
+    7,
+    7
+   ],
+   "catch_rate": 255,
+   "base_exp": 53,
+   "level1_moves": [
+    33,
+    81
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 124,
+   "dex": 11,
+   "identifier": "METAPOD",
+   "name": "METAPOD",
+   "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "speed": 30,
+    "special": 25
+   },
+   "types": [
+    7,
+    7
+   ],
+   "catch_rate": 120,
+   "base_exp": 72,
+   "level1_moves": [
+    106
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 125,
+   "dex": 12,
+   "identifier": "BUTTERFREE",
+   "name": "BUTTERFREE",
+   "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "speed": 70,
+    "special": 80
+   },
+   "types": [
+    7,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 160,
+   "level1_moves": [
+    93
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 112,
+   "dex": 13,
+   "identifier": "WEEDLE",
+   "name": "WEEDLE",
+   "base_stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "speed": 50,
+    "special": 20
+   },
+   "types": [
+    7,
+    3
+   ],
+   "catch_rate": 255,
+   "base_exp": 52,
+   "level1_moves": [
+    40,
+    81
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 113,
+   "dex": 14,
+   "identifier": "KAKUNA",
+   "name": "KAKUNA",
+   "base_stats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "speed": 35,
+    "special": 25
+   },
+   "types": [
+    7,
+    3
+   ],
+   "catch_rate": 120,
+   "base_exp": 71,
+   "level1_moves": [
+    106
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 114,
+   "dex": 15,
+   "identifier": "BEEDRILL",
+   "name": "BEEDRILL",
+   "base_stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 40,
+    "speed": 75,
+    "special": 45
+   },
+   "types": [
+    7,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 159,
+   "level1_moves": [
+    31
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 36,
+   "dex": 16,
+   "identifier": "PIDGEY",
+   "name": "PIDGEY",
+   "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "speed": 56,
+    "special": 35
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 255,
+   "base_exp": 55,
+   "level1_moves": [
+    16
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 150,
+   "dex": 17,
+   "identifier": "PIDGEOTTO",
+   "name": "PIDGEOTTO",
+   "base_stats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "speed": 71,
+    "special": 50
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 120,
+   "base_exp": 113,
+   "level1_moves": [
+    16,
+    28
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 151,
+   "dex": 18,
+   "identifier": "PIDGEOT",
+   "name": "PIDGEOT",
+   "base_stats": {
+    "hp": 83,
+    "attack": 80,
+    "defense": 75,
+    "speed": 91,
+    "special": 70
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 172,
+   "level1_moves": [
+    16,
+    28,
+    98
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 165,
+   "dex": 19,
+   "identifier": "RATTATA",
+   "name": "RATTATA",
+   "base_stats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "speed": 72,
+    "special": 25
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 255,
+   "base_exp": 57,
+   "level1_moves": [
+    33,
+    39
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 166,
+   "dex": 20,
+   "identifier": "RATICATE",
+   "name": "RATICATE",
+   "base_stats": {
+    "hp": 55,
+    "attack": 81,
+    "defense": 60,
+    "speed": 97,
+    "special": 50
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 90,
+   "base_exp": 116,
+   "level1_moves": [
+    33,
+    39,
+    98
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 5,
+   "dex": 21,
+   "identifier": "SPEAROW",
+   "name": "SPEAROW",
+   "base_stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "speed": 70,
+    "special": 31
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 255,
+   "base_exp": 58,
+   "level1_moves": [
+    64,
+    45
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 35,
+   "dex": 22,
+   "identifier": "FEAROW",
+   "name": "FEAROW",
+   "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 65,
+    "speed": 100,
+    "special": 61
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 90,
+   "base_exp": 162,
+   "level1_moves": [
+    64,
+    45,
+    43
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 108,
+   "dex": 23,
+   "identifier": "EKANS",
+   "name": "EKANS",
+   "base_stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "speed": 55,
+    "special": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 255,
+   "base_exp": 62,
+   "level1_moves": [
+    35,
+    43
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 45,
+   "dex": 24,
+   "identifier": "ARBOK",
+   "name": "ARBOK",
+   "base_stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 69,
+    "speed": 80,
+    "special": 65
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 90,
+   "base_exp": 147,
+   "level1_moves": [
+    35,
+    43,
+    40
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 84,
+   "dex": 25,
+   "identifier": "PIKACHU",
+   "name": "PIKACHU",
+   "base_stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 30,
+    "speed": 90,
+    "special": 50
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 190,
+   "base_exp": 82,
+   "level1_moves": [
+    84,
+    45
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 85,
+   "dex": 26,
+   "identifier": "RAICHU",
+   "name": "RAICHU",
+   "base_stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "speed": 100,
+    "special": 90
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 75,
+   "base_exp": 122,
+   "level1_moves": [
+    84,
+    45,
+    86
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 96,
+   "dex": 27,
+   "identifier": "SANDSHREW",
+   "name": "SANDSHREW",
+   "base_stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "speed": 40,
+    "special": 30
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 255,
+   "base_exp": 93,
+   "level1_moves": [
+    10
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 97,
+   "dex": 28,
+   "identifier": "SANDSLASH",
+   "name": "SANDSLASH",
+   "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "speed": 65,
+    "special": 55
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 90,
+   "base_exp": 163,
+   "level1_moves": [
+    10,
+    28
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 15,
+   "dex": 29,
+   "identifier": "NIDORAN_F",
+   "name": "NIDORAN♀",
+   "base_stats": {
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "speed": 41,
+    "special": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 235,
+   "base_exp": 59,
+   "level1_moves": [
+    45,
+    33
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 168,
+   "dex": 30,
+   "identifier": "NIDORINA",
+   "name": "NIDORINA",
+   "base_stats": {
+    "hp": 70,
+    "attack": 62,
+    "defense": 67,
+    "speed": 56,
+    "special": 55
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 120,
+   "base_exp": 117,
+   "level1_moves": [
+    45,
+    33,
+    10
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 16,
+   "dex": 31,
+   "identifier": "NIDOQUEEN",
+   "name": "NIDOQUEEN",
+   "base_stats": {
+    "hp": 90,
+    "attack": 82,
+    "defense": 87,
+    "speed": 76,
+    "special": 75
+   },
+   "types": [
+    3,
+    4
+   ],
+   "catch_rate": 45,
+   "base_exp": 194,
+   "level1_moves": [
+    33,
+    10,
+    39,
+    34
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 3,
+   "dex": 32,
+   "identifier": "NIDORAN_M",
+   "name": "NIDORAN♂",
+   "base_stats": {
+    "hp": 46,
+    "attack": 57,
+    "defense": 40,
+    "speed": 50,
+    "special": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 235,
+   "base_exp": 60,
+   "level1_moves": [
+    43,
+    33
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 167,
+   "dex": 33,
+   "identifier": "NIDORINO",
+   "name": "NIDORINO",
+   "base_stats": {
+    "hp": 61,
+    "attack": 72,
+    "defense": 57,
+    "speed": 65,
+    "special": 55
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 120,
+   "base_exp": 118,
+   "level1_moves": [
+    43,
+    33,
+    30
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 7,
+   "dex": 34,
+   "identifier": "NIDOKING",
+   "name": "NIDOKING",
+   "base_stats": {
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "speed": 85,
+    "special": 75
+   },
+   "types": [
+    3,
+    4
+   ],
+   "catch_rate": 45,
+   "base_exp": 195,
+   "level1_moves": [
+    33,
+    30,
+    40,
+    37
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 4,
+   "dex": 35,
+   "identifier": "CLEFAIRY",
+   "name": "CLEFAIRY",
+   "base_stats": {
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "speed": 35,
+    "special": 60
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 150,
+   "base_exp": 68,
+   "level1_moves": [
+    1,
+    45
+   ],
+   "growth_rate": "FAST"
+  },
+  {
+   "id": 142,
+   "dex": 36,
+   "identifier": "CLEFABLE",
+   "name": "CLEFABLE",
+   "base_stats": {
+    "hp": 95,
+    "attack": 70,
+    "defense": 73,
+    "speed": 60,
+    "special": 85
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 25,
+   "base_exp": 129,
+   "level1_moves": [
+    47,
+    3,
+    107,
+    118
+   ],
+   "growth_rate": "FAST"
+  },
+  {
+   "id": 82,
+   "dex": 37,
+   "identifier": "VULPIX",
+   "name": "VULPIX",
+   "base_stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "speed": 65,
+    "special": 65
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 190,
+   "base_exp": 63,
+   "level1_moves": [
+    52,
+    39
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 83,
+   "dex": 38,
+   "identifier": "NINETALES",
+   "name": "NINETALES",
+   "base_stats": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "speed": 100,
+    "special": 100
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 75,
+   "base_exp": 178,
+   "level1_moves": [
+    52,
+    39,
+    98,
+    46
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 100,
+   "dex": 39,
+   "identifier": "JIGGLYPUFF",
+   "name": "JIGGLYPUFF",
+   "base_stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "speed": 20,
+    "special": 25
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 170,
+   "base_exp": 76,
+   "level1_moves": [
+    47
+   ],
+   "growth_rate": "FAST"
+  },
+  {
+   "id": 101,
+   "dex": 40,
+   "identifier": "WIGGLYTUFF",
+   "name": "WIGGLYTUFF",
+   "base_stats": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "speed": 45,
+    "special": 50
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 50,
+   "base_exp": 109,
+   "level1_moves": [
+    47,
+    50,
+    111,
+    3
+   ],
+   "growth_rate": "FAST"
+  },
+  {
+   "id": 107,
+   "dex": 41,
+   "identifier": "ZUBAT",
+   "name": "ZUBAT",
+   "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 55,
+    "special": 40
+   },
+   "types": [
+    3,
+    2
+   ],
+   "catch_rate": 255,
+   "base_exp": 54,
+   "level1_moves": [
+    141
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 130,
+   "dex": 42,
+   "identifier": "GOLBAT",
+   "name": "GOLBAT",
+   "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "speed": 90,
+    "special": 75
+   },
+   "types": [
+    3,
+    2
+   ],
+   "catch_rate": 90,
+   "base_exp": 171,
+   "level1_moves": [
+    141,
+    103,
+    44
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 185,
+   "dex": 43,
+   "identifier": "ODDISH",
+   "name": "ODDISH",
+   "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 55,
+    "speed": 30,
+    "special": 75
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 255,
+   "base_exp": 78,
+   "level1_moves": [
+    71
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 186,
+   "dex": 44,
+   "identifier": "GLOOM",
+   "name": "GLOOM",
+   "base_stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "speed": 40,
+    "special": 85
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 120,
+   "base_exp": 132,
+   "level1_moves": [
+    71,
+    77,
+    78
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 187,
+   "dex": 45,
+   "identifier": "VILEPLUME",
+   "name": "VILEPLUME",
+   "base_stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 85,
+    "speed": 50,
+    "special": 100
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 184,
+   "level1_moves": [
+    78,
+    79,
+    51,
+    80
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 109,
+   "dex": 46,
+   "identifier": "PARAS",
+   "name": "PARAS",
+   "base_stats": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "speed": 25,
+    "special": 55
+   },
+   "types": [
+    7,
+    22
+   ],
+   "catch_rate": 190,
+   "base_exp": 70,
+   "level1_moves": [
+    10
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 46,
+   "dex": 47,
+   "identifier": "PARASECT",
+   "name": "PARASECT",
+   "base_stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "speed": 30,
+    "special": 80
+   },
+   "types": [
+    7,
+    22
+   ],
+   "catch_rate": 75,
+   "base_exp": 128,
+   "level1_moves": [
+    10,
+    78,
+    141
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 65,
+   "dex": 48,
+   "identifier": "VENONAT",
+   "name": "VENONAT",
+   "base_stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 50,
+    "speed": 45,
+    "special": 40
+   },
+   "types": [
+    7,
+    3
+   ],
+   "catch_rate": 190,
+   "base_exp": 75,
+   "level1_moves": [
+    33,
+    50
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 119,
+   "dex": 49,
+   "identifier": "VENOMOTH",
+   "name": "VENOMOTH",
+   "base_stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "speed": 90,
+    "special": 90
+   },
+   "types": [
+    7,
+    3
+   ],
+   "catch_rate": 75,
+   "base_exp": 138,
+   "level1_moves": [
+    33,
+    50,
+    77,
+    141
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 59,
+   "dex": 50,
+   "identifier": "DIGLETT",
+   "name": "DIGLETT",
+   "base_stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "speed": 95,
+    "special": 45
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 255,
+   "base_exp": 81,
+   "level1_moves": [
+    10
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 118,
+   "dex": 51,
+   "identifier": "DUGTRIO",
+   "name": "DUGTRIO",
+   "base_stats": {
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "speed": 120,
+    "special": 70
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 50,
+   "base_exp": 153,
+   "level1_moves": [
+    10,
+    45,
+    91
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 77,
+   "dex": 52,
+   "identifier": "MEOWTH",
+   "name": "MEOWTH",
+   "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 90,
+    "special": 40
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 255,
+   "base_exp": 69,
+   "level1_moves": [
+    10,
+    45
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 144,
+   "dex": 53,
+   "identifier": "PERSIAN",
+   "name": "PERSIAN",
+   "base_stats": {
+    "hp": 65,
+    "attack": 70,
+    "defense": 60,
+    "speed": 115,
+    "special": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 90,
+   "base_exp": 148,
+   "level1_moves": [
+    10,
+    45,
+    44,
+    103
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 47,
+   "dex": 54,
+   "identifier": "PSYDUCK",
+   "name": "PSYDUCK",
+   "base_stats": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "speed": 55,
+    "special": 50
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 190,
+   "base_exp": 80,
+   "level1_moves": [
+    10
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 128,
+   "dex": 55,
+   "identifier": "GOLDUCK",
+   "name": "GOLDUCK",
+   "base_stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "speed": 85,
+    "special": 80
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 75,
+   "base_exp": 174,
+   "level1_moves": [
+    10,
+    39,
+    50
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 57,
+   "dex": 56,
+   "identifier": "MANKEY",
+   "name": "MANKEY",
+   "base_stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "speed": 70,
+    "special": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 190,
+   "base_exp": 74,
+   "level1_moves": [
+    10,
+    43
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 117,
+   "dex": 57,
+   "identifier": "PRIMEAPE",
+   "name": "PRIMEAPE",
+   "base_stats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "speed": 95,
+    "special": 60
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 75,
+   "base_exp": 149,
+   "level1_moves": [
+    10,
+    43,
+    2,
+    154
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 33,
+   "dex": 58,
+   "identifier": "GROWLITHE",
+   "name": "GROWLITHE",
+   "base_stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "speed": 60,
+    "special": 50
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 190,
+   "base_exp": 91,
+   "level1_moves": [
+    44,
+    46
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 20,
+   "dex": 59,
+   "identifier": "ARCANINE",
+   "name": "ARCANINE",
+   "base_stats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "speed": 95,
+    "special": 80
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 75,
+   "base_exp": 213,
+   "level1_moves": [
+    46,
+    52,
+    43,
+    36
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 71,
+   "dex": 60,
+   "identifier": "POLIWAG",
+   "name": "POLIWAG",
+   "base_stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "speed": 90,
+    "special": 40
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 255,
+   "base_exp": 77,
+   "level1_moves": [
+    145
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 110,
+   "dex": 61,
+   "identifier": "POLIWHIRL",
+   "name": "POLIWHIRL",
+   "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 65,
+    "speed": 90,
+    "special": 50
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 120,
+   "base_exp": 131,
+   "level1_moves": [
+    145,
+    95,
+    55
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 111,
+   "dex": 62,
+   "identifier": "POLIWRATH",
+   "name": "POLIWRATH",
+   "base_stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 95,
+    "speed": 70,
+    "special": 70
+   },
+   "types": [
+    21,
+    1
+   ],
+   "catch_rate": 45,
+   "base_exp": 185,
+   "level1_moves": [
+    95,
+    55,
+    3,
+    34
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 148,
+   "dex": 63,
+   "identifier": "ABRA",
+   "name": "ABRA",
+   "base_stats": {
+    "hp": 25,
+    "attack": 20,
+    "defense": 15,
+    "speed": 90,
+    "special": 105
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 200,
+   "base_exp": 73,
+   "level1_moves": [
+    100
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 38,
+   "dex": 64,
+   "identifier": "KADABRA",
+   "name": "KADABRA",
+   "base_stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "speed": 105,
+    "special": 120
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 100,
+   "base_exp": 145,
+   "level1_moves": [
+    100,
+    93,
+    50
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 149,
+   "dex": 65,
+   "identifier": "ALAKAZAM",
+   "name": "ALAKAZAM",
+   "base_stats": {
+    "hp": 55,
+    "attack": 50,
+    "defense": 45,
+    "speed": 120,
+    "special": 135
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 50,
+   "base_exp": 186,
+   "level1_moves": [
+    100,
+    93,
+    50
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 106,
+   "dex": 66,
+   "identifier": "MACHOP",
+   "name": "MACHOP",
+   "base_stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "speed": 35,
+    "special": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 180,
+   "base_exp": 88,
+   "level1_moves": [
+    2
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 41,
+   "dex": 67,
+   "identifier": "MACHOKE",
+   "name": "MACHOKE",
+   "base_stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "speed": 45,
+    "special": 50
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 90,
+   "base_exp": 146,
+   "level1_moves": [
+    2,
+    67,
+    43
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 126,
+   "dex": 68,
+   "identifier": "MACHAMP",
+   "name": "MACHAMP",
+   "base_stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "speed": 55,
+    "special": 65
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 45,
+   "base_exp": 193,
+   "level1_moves": [
+    2,
+    67,
+    43
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 188,
+   "dex": 69,
+   "identifier": "BELLSPROUT",
+   "name": "BELLSPROUT",
+   "base_stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "speed": 40,
+    "special": 70
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 255,
+   "base_exp": 84,
+   "level1_moves": [
+    22,
+    74
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 189,
+   "dex": 70,
+   "identifier": "WEEPINBELL",
+   "name": "WEEPINBELL",
+   "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 50,
+    "speed": 55,
+    "special": 85
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 120,
+   "base_exp": 151,
+   "level1_moves": [
+    22,
+    74,
+    35
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 190,
+   "dex": 71,
+   "identifier": "VICTREEBEL",
+   "name": "VICTREEBEL",
+   "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "speed": 70,
+    "special": 100
+   },
+   "types": [
+    22,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 191,
+   "level1_moves": [
+    79,
+    78,
+    51,
+    75
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 24,
+   "dex": 72,
+   "identifier": "TENTACOOL",
+   "name": "TENTACOOL",
+   "base_stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "speed": 70,
+    "special": 100
+   },
+   "types": [
+    21,
+    3
+   ],
+   "catch_rate": 190,
+   "base_exp": 105,
+   "level1_moves": [
+    51
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 155,
+   "dex": 73,
+   "identifier": "TENTACRUEL",
+   "name": "TENTACRUEL",
+   "base_stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "speed": 100,
+    "special": 120
+   },
+   "types": [
+    21,
+    3
+   ],
+   "catch_rate": 60,
+   "base_exp": 205,
+   "level1_moves": [
+    51,
+    48,
+    35
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 169,
+   "dex": 74,
+   "identifier": "GEODUDE",
+   "name": "GEODUDE",
+   "base_stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 100,
+    "speed": 20,
+    "special": 30
+   },
+   "types": [
+    5,
+    4
+   ],
+   "catch_rate": 255,
+   "base_exp": 86,
+   "level1_moves": [
+    33
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 39,
+   "dex": 75,
+   "identifier": "GRAVELER",
+   "name": "GRAVELER",
+   "base_stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 115,
+    "speed": 35,
+    "special": 45
+   },
+   "types": [
+    5,
+    4
+   ],
+   "catch_rate": 120,
+   "base_exp": 134,
+   "level1_moves": [
+    33,
+    111
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 49,
+   "dex": 76,
+   "identifier": "GOLEM",
+   "name": "GOLEM",
+   "base_stats": {
+    "hp": 80,
+    "attack": 110,
+    "defense": 130,
+    "speed": 45,
+    "special": 55
+   },
+   "types": [
+    5,
+    4
+   ],
+   "catch_rate": 45,
+   "base_exp": 177,
+   "level1_moves": [
+    33,
+    111
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 163,
+   "dex": 77,
+   "identifier": "PONYTA",
+   "name": "PONYTA",
+   "base_stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 55,
+    "speed": 90,
+    "special": 65
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 190,
+   "base_exp": 152,
+   "level1_moves": [
+    52
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 164,
+   "dex": 78,
+   "identifier": "RAPIDASH",
+   "name": "RAPIDASH",
+   "base_stats": {
+    "hp": 65,
+    "attack": 100,
+    "defense": 70,
+    "speed": 105,
+    "special": 80
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 60,
+   "base_exp": 192,
+   "level1_moves": [
+    52,
+    39,
+    23,
+    45
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 37,
+   "dex": 79,
+   "identifier": "SLOWPOKE",
+   "name": "SLOWPOKE",
+   "base_stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "speed": 15,
+    "special": 40
+   },
+   "types": [
+    21,
+    24
+   ],
+   "catch_rate": 190,
+   "base_exp": 99,
+   "level1_moves": [
+    93
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 8,
+   "dex": 80,
+   "identifier": "SLOWBRO",
+   "name": "SLOWBRO",
+   "base_stats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "speed": 30,
+    "special": 80
+   },
+   "types": [
+    21,
+    24
+   ],
+   "catch_rate": 75,
+   "base_exp": 164,
+   "level1_moves": [
+    93,
+    50,
+    29
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 173,
+   "dex": 81,
+   "identifier": "MAGNEMITE",
+   "name": "MAGNEMITE",
+   "base_stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "speed": 45,
+    "special": 95
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 190,
+   "base_exp": 89,
+   "level1_moves": [
+    33
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 54,
+   "dex": 82,
+   "identifier": "MAGNETON",
+   "name": "MAGNETON",
+   "base_stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "speed": 70,
+    "special": 120
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 60,
+   "base_exp": 161,
+   "level1_moves": [
+    33,
+    49,
+    84
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 64,
+   "dex": 83,
+   "identifier": "FARFETCHD",
+   "name": "FARFETCH'D",
+   "base_stats": {
+    "hp": 52,
+    "attack": 65,
+    "defense": 55,
+    "speed": 60,
+    "special": 58
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 94,
+   "level1_moves": [
+    64,
+    28
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 70,
+   "dex": 84,
+   "identifier": "DODUO",
+   "name": "DODUO",
+   "base_stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "speed": 75,
+    "special": 35
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 190,
+   "base_exp": 96,
+   "level1_moves": [
+    64
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 116,
+   "dex": 85,
+   "identifier": "DODRIO",
+   "name": "DODRIO",
+   "base_stats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "speed": 100,
+    "special": 60
+   },
+   "types": [
+    0,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 158,
+   "level1_moves": [
+    64,
+    45,
+    31
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 58,
+   "dex": 86,
+   "identifier": "SEEL",
+   "name": "SEEL",
+   "base_stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "speed": 45,
+    "special": 70
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 190,
+   "base_exp": 100,
+   "level1_moves": [
+    29
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 120,
+   "dex": 87,
+   "identifier": "DEWGONG",
+   "name": "DEWGONG",
+   "base_stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "speed": 70,
+    "special": 95
+   },
+   "types": [
+    21,
+    25
+   ],
+   "catch_rate": 75,
+   "base_exp": 176,
+   "level1_moves": [
+    29,
+    45,
+    62
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 13,
+   "dex": 88,
+   "identifier": "GRIMER",
+   "name": "GRIMER",
+   "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "speed": 25,
+    "special": 40
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 190,
+   "base_exp": 90,
+   "level1_moves": [
+    1,
+    50
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 136,
+   "dex": 89,
+   "identifier": "MUK",
+   "name": "MUK",
+   "base_stats": {
+    "hp": 105,
+    "attack": 105,
+    "defense": 75,
+    "speed": 50,
+    "special": 65
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 75,
+   "base_exp": 157,
+   "level1_moves": [
+    1,
+    50,
+    139
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 23,
+   "dex": 90,
+   "identifier": "SHELLDER",
+   "name": "SHELLDER",
+   "base_stats": {
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "speed": 40,
+    "special": 45
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 190,
+   "base_exp": 97,
+   "level1_moves": [
+    33,
+    110
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 139,
+   "dex": 91,
+   "identifier": "CLOYSTER",
+   "name": "CLOYSTER",
+   "base_stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "speed": 70,
+    "special": 85
+   },
+   "types": [
+    21,
+    25
+   ],
+   "catch_rate": 60,
+   "base_exp": 203,
+   "level1_moves": [
+    110,
+    48,
+    128,
+    62
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 25,
+   "dex": 92,
+   "identifier": "GASTLY",
+   "name": "GASTLY",
+   "base_stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "speed": 80,
+    "special": 100
+   },
+   "types": [
+    8,
+    3
+   ],
+   "catch_rate": 190,
+   "base_exp": 95,
+   "level1_moves": [
+    122,
+    109,
+    101
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 147,
+   "dex": 93,
+   "identifier": "HAUNTER",
+   "name": "HAUNTER",
+   "base_stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "speed": 95,
+    "special": 115
+   },
+   "types": [
+    8,
+    3
+   ],
+   "catch_rate": 90,
+   "base_exp": 126,
+   "level1_moves": [
+    122,
+    109,
+    101
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 14,
+   "dex": 94,
+   "identifier": "GENGAR",
+   "name": "GENGAR",
+   "base_stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 60,
+    "speed": 110,
+    "special": 130
+   },
+   "types": [
+    8,
+    3
+   ],
+   "catch_rate": 45,
+   "base_exp": 190,
+   "level1_moves": [
+    122,
+    109,
+    101
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  },
+  {
+   "id": 34,
+   "dex": 95,
+   "identifier": "ONIX",
+   "name": "ONIX",
+   "base_stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "speed": 70,
+    "special": 30
+   },
+   "types": [
+    5,
+    4
+   ],
+   "catch_rate": 45,
+   "base_exp": 108,
+   "level1_moves": [
+    33,
+    103
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 48,
+   "dex": 96,
+   "identifier": "DROWZEE",
+   "name": "DROWZEE",
+   "base_stats": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "speed": 42,
+    "special": 90
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 190,
+   "base_exp": 102,
+   "level1_moves": [
+    1,
+    95
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 129,
+   "dex": 97,
+   "identifier": "HYPNO",
+   "name": "HYPNO",
+   "base_stats": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "speed": 67,
+    "special": 115
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 75,
+   "base_exp": 165,
+   "level1_moves": [
+    1,
+    95,
+    50,
+    93
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 78,
+   "dex": 98,
+   "identifier": "KRABBY",
+   "name": "KRABBY",
+   "base_stats": {
+    "hp": 30,
+    "attack": 105,
+    "defense": 90,
+    "speed": 50,
+    "special": 25
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 225,
+   "base_exp": 115,
+   "level1_moves": [
+    145,
+    43
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 138,
+   "dex": 99,
+   "identifier": "KINGLER",
+   "name": "KINGLER",
+   "base_stats": {
+    "hp": 55,
+    "attack": 130,
+    "defense": 115,
+    "speed": 75,
+    "special": 50
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 60,
+   "base_exp": 206,
+   "level1_moves": [
+    145,
+    43,
+    11
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 6,
+   "dex": 100,
+   "identifier": "VOLTORB",
+   "name": "VOLTORB",
+   "base_stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "speed": 100,
+    "special": 55
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 190,
+   "base_exp": 103,
+   "level1_moves": [
+    33,
+    103
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 141,
+   "dex": 101,
+   "identifier": "ELECTRODE",
+   "name": "ELECTRODE",
+   "base_stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "speed": 140,
+    "special": 80
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 60,
+   "base_exp": 150,
+   "level1_moves": [
+    33,
+    103,
+    49
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 12,
+   "dex": 102,
+   "identifier": "EXEGGCUTE",
+   "name": "EXEGGCUTE",
+   "base_stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 80,
+    "speed": 40,
+    "special": 60
+   },
+   "types": [
+    22,
+    24
+   ],
+   "catch_rate": 90,
+   "base_exp": 98,
+   "level1_moves": [
+    140,
+    95
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 10,
+   "dex": 103,
+   "identifier": "EXEGGUTOR",
+   "name": "EXEGGUTOR",
+   "base_stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "speed": 55,
+    "special": 125
+   },
+   "types": [
+    22,
+    24
+   ],
+   "catch_rate": 45,
+   "base_exp": 212,
+   "level1_moves": [
+    140,
+    95
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 17,
+   "dex": 104,
+   "identifier": "CUBONE",
+   "name": "CUBONE",
+   "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 95,
+    "speed": 35,
+    "special": 40
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 190,
+   "base_exp": 87,
+   "level1_moves": [
+    125,
+    45
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 145,
+   "dex": 105,
+   "identifier": "MAROWAK",
+   "name": "MAROWAK",
+   "base_stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "speed": 45,
+    "special": 50
+   },
+   "types": [
+    4,
+    4
+   ],
+   "catch_rate": 75,
+   "base_exp": 124,
+   "level1_moves": [
+    125,
+    45,
+    43,
+    116
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 43,
+   "dex": 106,
+   "identifier": "HITMONLEE",
+   "name": "HITMONLEE",
+   "base_stats": {
+    "hp": 50,
+    "attack": 120,
+    "defense": 53,
+    "speed": 87,
+    "special": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 45,
+   "base_exp": 139,
+   "level1_moves": [
+    24,
+    96
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 44,
+   "dex": 107,
+   "identifier": "HITMONCHAN",
+   "name": "HITMONCHAN",
+   "base_stats": {
+    "hp": 50,
+    "attack": 105,
+    "defense": 79,
+    "speed": 76,
+    "special": 35
+   },
+   "types": [
+    1,
+    1
+   ],
+   "catch_rate": 45,
+   "base_exp": 140,
+   "level1_moves": [
+    4,
+    97
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 11,
+   "dex": 108,
+   "identifier": "LICKITUNG",
+   "name": "LICKITUNG",
+   "base_stats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "speed": 30,
+    "special": 60
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 45,
+   "base_exp": 127,
+   "level1_moves": [
+    35,
+    48
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 55,
+   "dex": 109,
+   "identifier": "KOFFING",
+   "name": "KOFFING",
+   "base_stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "speed": 35,
+    "special": 60
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 190,
+   "base_exp": 114,
+   "level1_moves": [
+    33,
+    123
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 143,
+   "dex": 110,
+   "identifier": "WEEZING",
+   "name": "WEEZING",
+   "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 120,
+    "speed": 60,
+    "special": 85
+   },
+   "types": [
+    3,
+    3
+   ],
+   "catch_rate": 60,
+   "base_exp": 173,
+   "level1_moves": [
+    33,
+    123,
+    124
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 18,
+   "dex": 111,
+   "identifier": "RHYHORN",
+   "name": "RHYHORN",
+   "base_stats": {
+    "hp": 80,
+    "attack": 85,
+    "defense": 95,
+    "speed": 25,
+    "special": 30
+   },
+   "types": [
+    4,
+    5
+   ],
+   "catch_rate": 120,
+   "base_exp": 135,
+   "level1_moves": [
+    30
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 1,
+   "dex": 112,
+   "identifier": "RHYDON",
+   "name": "RHYDON",
+   "base_stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "speed": 40,
+    "special": 45
+   },
+   "types": [
+    4,
+    5
+   ],
+   "catch_rate": 60,
+   "base_exp": 204,
+   "level1_moves": [
+    30,
+    23,
+    39,
+    31
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 40,
+   "dex": 113,
+   "identifier": "CHANSEY",
+   "name": "CHANSEY",
+   "base_stats": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "speed": 50,
+    "special": 105
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 30,
+   "base_exp": 255,
+   "level1_moves": [
+    1,
+    3
+   ],
+   "growth_rate": "FAST"
+  },
+  {
+   "id": 30,
+   "dex": 114,
+   "identifier": "TANGELA",
+   "name": "TANGELA",
+   "base_stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "speed": 60,
+    "special": 100
+   },
+   "types": [
+    22,
+    22
+   ],
+   "catch_rate": 45,
+   "base_exp": 166,
+   "level1_moves": [
+    132,
+    20
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 2,
+   "dex": 115,
+   "identifier": "KANGASKHAN",
+   "name": "KANGASKHAN",
+   "base_stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "speed": 90,
+    "special": 40
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 45,
+   "base_exp": 175,
+   "level1_moves": [
+    4,
+    99
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 92,
+   "dex": 116,
+   "identifier": "HORSEA",
+   "name": "HORSEA",
+   "base_stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 70,
+    "speed": 60,
+    "special": 70
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 225,
+   "base_exp": 83,
+   "level1_moves": [
+    145
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 93,
+   "dex": 117,
+   "identifier": "SEADRA",
+   "name": "SEADRA",
+   "base_stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 95,
+    "speed": 85,
+    "special": 95
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 75,
+   "base_exp": 155,
+   "level1_moves": [
+    145,
+    108
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 157,
+   "dex": 118,
+   "identifier": "GOLDEEN",
+   "name": "GOLDEEN",
+   "base_stats": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "speed": 63,
+    "special": 50
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 225,
+   "base_exp": 111,
+   "level1_moves": [
+    64,
+    39
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 158,
+   "dex": 119,
+   "identifier": "SEAKING",
+   "name": "SEAKING",
+   "base_stats": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "speed": 68,
+    "special": 80
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 60,
+   "base_exp": 170,
+   "level1_moves": [
+    64,
+    39,
+    48
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 27,
+   "dex": 120,
+   "identifier": "STARYU",
+   "name": "STARYU",
+   "base_stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "speed": 85,
+    "special": 70
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 225,
+   "base_exp": 106,
+   "level1_moves": [
+    33
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 152,
+   "dex": 121,
+   "identifier": "STARMIE",
+   "name": "STARMIE",
+   "base_stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 85,
+    "speed": 115,
+    "special": 100
+   },
+   "types": [
+    21,
+    24
+   ],
+   "catch_rate": 60,
+   "base_exp": 207,
+   "level1_moves": [
+    33,
+    55,
+    106
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 42,
+   "dex": 122,
+   "identifier": "MR_MIME",
+   "name": "MR.MIME",
+   "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 65,
+    "speed": 90,
+    "special": 100
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 45,
+   "base_exp": 136,
+   "level1_moves": [
+    93,
+    112
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 26,
+   "dex": 123,
+   "identifier": "SCYTHER",
+   "name": "SCYTHER",
+   "base_stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "speed": 105,
+    "special": 55
+   },
+   "types": [
+    7,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 187,
+   "level1_moves": [
+    98
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 72,
+   "dex": 124,
+   "identifier": "JYNX",
+   "name": "JYNX",
+   "base_stats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "speed": 95,
+    "special": 95
+   },
+   "types": [
+    25,
+    24
+   ],
+   "catch_rate": 45,
+   "base_exp": 137,
+   "level1_moves": [
+    1,
+    142
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 53,
+   "dex": 125,
+   "identifier": "ELECTABUZZ",
+   "name": "ELECTABUZZ",
+   "base_stats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "speed": 105,
+    "special": 85
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 45,
+   "base_exp": 156,
+   "level1_moves": [
+    98,
+    43
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 51,
+   "dex": 126,
+   "identifier": "MAGMAR",
+   "name": "MAGMAR",
+   "base_stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "speed": 93,
+    "special": 85
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 45,
+   "base_exp": 167,
+   "level1_moves": [
+    52
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 29,
+   "dex": 127,
+   "identifier": "PINSIR",
+   "name": "PINSIR",
+   "base_stats": {
+    "hp": 65,
+    "attack": 125,
+    "defense": 100,
+    "speed": 85,
+    "special": 55
+   },
+   "types": [
+    7,
+    7
+   ],
+   "catch_rate": 45,
+   "base_exp": 200,
+   "level1_moves": [
+    11
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 60,
+   "dex": 128,
+   "identifier": "TAUROS",
+   "name": "TAUROS",
+   "base_stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "speed": 110,
+    "special": 70
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 45,
+   "base_exp": 211,
+   "level1_moves": [
+    33
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 133,
+   "dex": 129,
+   "identifier": "MAGIKARP",
+   "name": "MAGIKARP",
+   "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "speed": 80,
+    "special": 20
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 255,
+   "base_exp": 20,
+   "level1_moves": [
+    150
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 22,
+   "dex": 130,
+   "identifier": "GYARADOS",
+   "name": "GYARADOS",
+   "base_stats": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "speed": 81,
+    "special": 100
+   },
+   "types": [
+    21,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 214,
+   "level1_moves": [
+    44,
+    82,
+    43,
+    56
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 19,
+   "dex": 131,
+   "identifier": "LAPRAS",
+   "name": "LAPRAS",
+   "base_stats": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "speed": 60,
+    "special": 95
+   },
+   "types": [
+    21,
+    25
+   ],
+   "catch_rate": 45,
+   "base_exp": 219,
+   "level1_moves": [
+    55,
+    45
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 76,
+   "dex": 132,
+   "identifier": "DITTO",
+   "name": "DITTO",
+   "base_stats": {
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "speed": 48,
+    "special": 48
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 35,
+   "base_exp": 61,
+   "level1_moves": [
+    144
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 102,
+   "dex": 133,
+   "identifier": "EEVEE",
+   "name": "EEVEE",
+   "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "speed": 55,
+    "special": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 45,
+   "base_exp": 92,
+   "level1_moves": [
+    33,
+    28
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 105,
+   "dex": 134,
+   "identifier": "VAPOREON",
+   "name": "VAPOREON",
+   "base_stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "speed": 65,
+    "special": 110
+   },
+   "types": [
+    21,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 196,
+   "level1_moves": [
+    33,
+    28,
+    98,
+    55
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 104,
+   "dex": 135,
+   "identifier": "JOLTEON",
+   "name": "JOLTEON",
+   "base_stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "speed": 130,
+    "special": 110
+   },
+   "types": [
+    23,
+    23
+   ],
+   "catch_rate": 45,
+   "base_exp": 197,
+   "level1_moves": [
+    33,
+    28,
+    98,
+    84
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 103,
+   "dex": 136,
+   "identifier": "FLAREON",
+   "name": "FLAREON",
+   "base_stats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "speed": 65,
+    "special": 110
+   },
+   "types": [
+    20,
+    20
+   ],
+   "catch_rate": 45,
+   "base_exp": 198,
+   "level1_moves": [
+    33,
+    28,
+    98,
+    52
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 170,
+   "dex": 137,
+   "identifier": "PORYGON",
+   "name": "PORYGON",
+   "base_stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "speed": 40,
+    "special": 75
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 45,
+   "base_exp": 130,
+   "level1_moves": [
+    33,
+    159,
+    160
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 98,
+   "dex": 138,
+   "identifier": "OMANYTE",
+   "name": "OMANYTE",
+   "base_stats": {
+    "hp": 35,
+    "attack": 40,
+    "defense": 100,
+    "speed": 35,
+    "special": 90
+   },
+   "types": [
+    5,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 120,
+   "level1_moves": [
+    55,
+    110
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 99,
+   "dex": 139,
+   "identifier": "OMASTAR",
+   "name": "OMASTAR",
+   "base_stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 125,
+    "speed": 55,
+    "special": 115
+   },
+   "types": [
+    5,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 199,
+   "level1_moves": [
+    55,
+    110,
+    30
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 90,
+   "dex": 140,
+   "identifier": "KABUTO",
+   "name": "KABUTO",
+   "base_stats": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "speed": 55,
+    "special": 45
+   },
+   "types": [
+    5,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 119,
+   "level1_moves": [
+    10,
+    106
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 91,
+   "dex": 141,
+   "identifier": "KABUTOPS",
+   "name": "KABUTOPS",
+   "base_stats": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "speed": 80,
+    "special": 70
+   },
+   "types": [
+    5,
+    21
+   ],
+   "catch_rate": 45,
+   "base_exp": 201,
+   "level1_moves": [
+    10,
+    106,
+    71
+   ],
+   "growth_rate": "MEDIUM_FAST"
+  },
+  {
+   "id": 171,
+   "dex": 142,
+   "identifier": "AERODACTYL",
+   "name": "AERODACTYL",
+   "base_stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "speed": 130,
+    "special": 60
+   },
+   "types": [
+    5,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 202,
+   "level1_moves": [
+    17,
+    97
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 132,
+   "dex": 143,
+   "identifier": "SNORLAX",
+   "name": "SNORLAX",
+   "base_stats": {
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "speed": 30,
+    "special": 65
+   },
+   "types": [
+    0,
+    0
+   ],
+   "catch_rate": 25,
+   "base_exp": 154,
+   "level1_moves": [
+    29,
+    133,
+    156
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 74,
+   "dex": 144,
+   "identifier": "ARTICUNO",
+   "name": "ARTICUNO",
+   "base_stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "speed": 85,
+    "special": 125
+   },
+   "types": [
+    25,
+    2
+   ],
+   "catch_rate": 3,
+   "base_exp": 215,
+   "level1_moves": [
+    64,
+    58
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 75,
+   "dex": 145,
+   "identifier": "ZAPDOS",
+   "name": "ZAPDOS",
+   "base_stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "speed": 100,
+    "special": 125
+   },
+   "types": [
+    23,
+    2
+   ],
+   "catch_rate": 3,
+   "base_exp": 216,
+   "level1_moves": [
+    84,
+    65
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 73,
+   "dex": 146,
+   "identifier": "MOLTRES",
+   "name": "MOLTRES",
+   "base_stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "speed": 90,
+    "special": 125
+   },
+   "types": [
+    20,
+    2
+   ],
+   "catch_rate": 3,
+   "base_exp": 217,
+   "level1_moves": [
+    64,
+    83
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 88,
+   "dex": 147,
+   "identifier": "DRATINI",
+   "name": "DRATINI",
+   "base_stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "speed": 50,
+    "special": 50
+   },
+   "types": [
+    26,
+    26
+   ],
+   "catch_rate": 45,
+   "base_exp": 67,
+   "level1_moves": [
+    35,
+    43
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 89,
+   "dex": 148,
+   "identifier": "DRAGONAIR",
+   "name": "DRAGONAIR",
+   "base_stats": {
+    "hp": 61,
+    "attack": 84,
+    "defense": 65,
+    "speed": 70,
+    "special": 70
+   },
+   "types": [
+    26,
+    26
+   ],
+   "catch_rate": 45,
+   "base_exp": 144,
+   "level1_moves": [
+    35,
+    43,
+    86
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 66,
+   "dex": 149,
+   "identifier": "DRAGONITE",
+   "name": "DRAGONITE",
+   "base_stats": {
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "speed": 80,
+    "special": 100
+   },
+   "types": [
+    26,
+    2
+   ],
+   "catch_rate": 45,
+   "base_exp": 218,
+   "level1_moves": [
+    35,
+    43,
+    86,
+    97
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 131,
+   "dex": 150,
+   "identifier": "MEWTWO",
+   "name": "MEWTWO",
+   "base_stats": {
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "speed": 130,
+    "special": 154
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 3,
+   "base_exp": 220,
+   "level1_moves": [
+    93,
+    50,
+    129,
+    94
+   ],
+   "growth_rate": "SLOW"
+  },
+  {
+   "id": 21,
+   "dex": 151,
+   "identifier": "MEW",
+   "name": "MEW",
+   "base_stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "speed": 100,
+    "special": 100
+   },
+   "types": [
+    24,
+    24
+   ],
+   "catch_rate": 45,
+   "base_exp": 64,
+   "level1_moves": [
+    1
+   ],
+   "growth_rate": "MEDIUM_SLOW"
+  }
+ ],
+ "moves": [
+  {
+   "id": 1,
+   "identifier": "POUND",
+   "name": "POUND",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 2,
+   "identifier": "KARATE_CHOP",
+   "name": "KARATE CHOP",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 50,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 3,
+   "identifier": "DOUBLESLAP",
+   "name": "DOUBLESLAP",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 10
+  },
+  {
+   "id": 4,
+   "identifier": "COMET_PUNCH",
+   "name": "COMET PUNCH",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 18,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 15
+  },
+  {
+   "id": 5,
+   "identifier": "MEGA_PUNCH",
+   "name": "MEGA PUNCH",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 6,
+   "identifier": "PAY_DAY",
+   "name": "PAY DAY",
+   "effect": 16,
+   "effect_name": "PAY_DAY_EFFECT",
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 7,
+   "identifier": "FIRE_PUNCH",
+   "name": "FIRE PUNCH",
+   "effect": 4,
+   "effect_name": "BURN_SIDE_EFFECT1",
+   "power": 75,
+   "type": 20,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 8,
+   "identifier": "ICE_PUNCH",
+   "name": "ICE PUNCH",
+   "effect": 5,
+   "effect_name": "FREEZE_SIDE_EFFECT1",
+   "power": 75,
+   "type": 25,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 9,
+   "identifier": "THUNDERPUNCH",
+   "name": "THUNDERPUNCH",
+   "effect": 6,
+   "effect_name": "PARALYZE_SIDE_EFFECT1",
+   "power": 75,
+   "type": 23,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 10,
+   "identifier": "SCRATCH",
+   "name": "SCRATCH",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 11,
+   "identifier": "VICEGRIP",
+   "name": "VICEGRIP",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 55,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 12,
+   "identifier": "GUILLOTINE",
+   "name": "GUILLOTINE",
+   "effect": 38,
+   "effect_name": "OHKO_EFFECT",
+   "power": 1,
+   "type": 0,
+   "accuracy": 76,
+   "pp": 5
+  },
+  {
+   "id": 13,
+   "identifier": "RAZOR_WIND",
+   "name": "RAZOR WIND",
+   "effect": 39,
+   "effect_name": "CHARGE_EFFECT",
+   "power": 80,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 10
+  },
+  {
+   "id": 14,
+   "identifier": "SWORDS_DANCE",
+   "name": "SWORDS DANCE",
+   "effect": 50,
+   "effect_name": "ATTACK_UP2_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 15,
+   "identifier": "CUT",
+   "name": "CUT",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 50,
+   "type": 0,
+   "accuracy": 242,
+   "pp": 30
+  },
+  {
+   "id": 16,
+   "identifier": "GUST",
+   "name": "GUST",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 17,
+   "identifier": "WING_ATTACK",
+   "name": "WING ATTACK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 35,
+   "type": 2,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 18,
+   "identifier": "WHIRLWIND",
+   "name": "WHIRLWIND",
+   "effect": 28,
+   "effect_name": "SWITCH_AND_TELEPORT_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 19,
+   "identifier": "FLY",
+   "name": "FLY",
+   "effect": 43,
+   "effect_name": "FLY_EFFECT",
+   "power": 70,
+   "type": 2,
+   "accuracy": 242,
+   "pp": 15
+  },
+  {
+   "id": 20,
+   "identifier": "BIND",
+   "name": "BIND",
+   "effect": 42,
+   "effect_name": "TRAPPING_EFFECT",
+   "power": 15,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 20
+  },
+  {
+   "id": 21,
+   "identifier": "SLAM",
+   "name": "SLAM",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 20
+  },
+  {
+   "id": 22,
+   "identifier": "VINE_WHIP",
+   "name": "VINE WHIP",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 35,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 23,
+   "identifier": "STOMP",
+   "name": "STOMP",
+   "effect": 37,
+   "effect_name": "FLINCH_SIDE_EFFECT2",
+   "power": 65,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 24,
+   "identifier": "DOUBLE_KICK",
+   "name": "DOUBLE KICK",
+   "effect": 44,
+   "effect_name": "ATTACK_TWICE_EFFECT",
+   "power": 30,
+   "type": 1,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 25,
+   "identifier": "MEGA_KICK",
+   "name": "MEGA KICK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 120,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 5
+  },
+  {
+   "id": 26,
+   "identifier": "JUMP_KICK",
+   "name": "JUMP KICK",
+   "effect": 45,
+   "effect_name": "JUMP_KICK_EFFECT",
+   "power": 70,
+   "type": 1,
+   "accuracy": 242,
+   "pp": 25
+  },
+  {
+   "id": 27,
+   "identifier": "ROLLING_KICK",
+   "name": "ROLLING KICK",
+   "effect": 37,
+   "effect_name": "FLINCH_SIDE_EFFECT2",
+   "power": 60,
+   "type": 1,
+   "accuracy": 216,
+   "pp": 15
+  },
+  {
+   "id": 28,
+   "identifier": "SAND_ATTACK",
+   "name": "SAND-ATTACK",
+   "effect": 22,
+   "effect_name": "ACCURACY_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 29,
+   "identifier": "HEADBUTT",
+   "name": "HEADBUTT",
+   "effect": 37,
+   "effect_name": "FLINCH_SIDE_EFFECT2",
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 30,
+   "identifier": "HORN_ATTACK",
+   "name": "HORN ATTACK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 65,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 31,
+   "identifier": "FURY_ATTACK",
+   "name": "FURY ATTACK",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 32,
+   "identifier": "HORN_DRILL",
+   "name": "HORN DRILL",
+   "effect": 38,
+   "effect_name": "OHKO_EFFECT",
+   "power": 1,
+   "type": 0,
+   "accuracy": 76,
+   "pp": 5
+  },
+  {
+   "id": 33,
+   "identifier": "TACKLE",
+   "name": "TACKLE",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 35,
+   "type": 0,
+   "accuracy": 242,
+   "pp": 35
+  },
+  {
+   "id": 34,
+   "identifier": "BODY_SLAM",
+   "name": "BODY SLAM",
+   "effect": 36,
+   "effect_name": "PARALYZE_SIDE_EFFECT2",
+   "power": 85,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 35,
+   "identifier": "WRAP",
+   "name": "WRAP",
+   "effect": 42,
+   "effect_name": "TRAPPING_EFFECT",
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 36,
+   "identifier": "TAKE_DOWN",
+   "name": "TAKE DOWN",
+   "effect": 48,
+   "effect_name": "RECOIL_EFFECT",
+   "power": 90,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 37,
+   "identifier": "THRASH",
+   "name": "THRASH",
+   "effect": 27,
+   "effect_name": "THRASH_PETAL_DANCE_EFFECT",
+   "power": 90,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 38,
+   "identifier": "DOUBLE_EDGE",
+   "name": "DOUBLE-EDGE",
+   "effect": 48,
+   "effect_name": "RECOIL_EFFECT",
+   "power": 100,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 39,
+   "identifier": "TAIL_WHIP",
+   "name": "TAIL WHIP",
+   "effect": 19,
+   "effect_name": "DEFENSE_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 40,
+   "identifier": "POISON_STING",
+   "name": "POISON STING",
+   "effect": 2,
+   "effect_name": "POISON_SIDE_EFFECT1",
+   "power": 15,
+   "type": 3,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 41,
+   "identifier": "TWINEEDLE",
+   "name": "TWINEEDLE",
+   "effect": 77,
+   "effect_name": "TWINEEDLE_EFFECT",
+   "power": 25,
+   "type": 7,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 42,
+   "identifier": "PIN_MISSILE",
+   "name": "PIN MISSILE",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 14,
+   "type": 7,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 43,
+   "identifier": "LEER",
+   "name": "LEER",
+   "effect": 19,
+   "effect_name": "DEFENSE_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 44,
+   "identifier": "BITE",
+   "name": "BITE",
+   "effect": 31,
+   "effect_name": "FLINCH_SIDE_EFFECT1",
+   "power": 60,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 45,
+   "identifier": "GROWL",
+   "name": "GROWL",
+   "effect": 18,
+   "effect_name": "ATTACK_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 46,
+   "identifier": "ROAR",
+   "name": "ROAR",
+   "effect": 28,
+   "effect_name": "SWITCH_AND_TELEPORT_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 47,
+   "identifier": "SING",
+   "name": "SING",
+   "effect": 32,
+   "effect_name": "SLEEP_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "pp": 15
+  },
+  {
+   "id": 48,
+   "identifier": "SUPERSONIC",
+   "name": "SUPERSONIC",
+   "effect": 49,
+   "effect_name": "CONFUSION_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "pp": 20
+  },
+  {
+   "id": 49,
+   "identifier": "SONICBOOM",
+   "name": "SONICBOOM",
+   "effect": 41,
+   "effect_name": "SPECIAL_DAMAGE_EFFECT",
+   "power": 1,
+   "type": 0,
+   "accuracy": 229,
+   "pp": 20
+  },
+  {
+   "id": 50,
+   "identifier": "DISABLE",
+   "name": "DISABLE",
+   "effect": 86,
+   "effect_name": "DISABLE_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 140,
+   "pp": 20
+  },
+  {
+   "id": 51,
+   "identifier": "ACID",
+   "name": "ACID",
+   "effect": 69,
+   "effect_name": "DEFENSE_DOWN_SIDE_EFFECT",
+   "power": 40,
+   "type": 3,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 52,
+   "identifier": "EMBER",
+   "name": "EMBER",
+   "effect": 4,
+   "effect_name": "BURN_SIDE_EFFECT1",
+   "power": 40,
+   "type": 20,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 53,
+   "identifier": "FLAMETHROWER",
+   "name": "FLAMETHROWER",
+   "effect": 4,
+   "effect_name": "BURN_SIDE_EFFECT1",
+   "power": 95,
+   "type": 20,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 54,
+   "identifier": "MIST",
+   "name": "MIST",
+   "effect": 46,
+   "effect_name": "MIST_EFFECT",
+   "power": 0,
+   "type": 25,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 55,
+   "identifier": "WATER_GUN",
+   "name": "WATER GUN",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 40,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 56,
+   "identifier": "HYDRO_PUMP",
+   "name": "HYDRO PUMP",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 120,
+   "type": 21,
+   "accuracy": 204,
+   "pp": 5
+  },
+  {
+   "id": 57,
+   "identifier": "SURF",
+   "name": "SURF",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 95,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 58,
+   "identifier": "ICE_BEAM",
+   "name": "ICE BEAM",
+   "effect": 5,
+   "effect_name": "FREEZE_SIDE_EFFECT1",
+   "power": 95,
+   "type": 25,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 59,
+   "identifier": "BLIZZARD",
+   "name": "BLIZZARD",
+   "effect": 5,
+   "effect_name": "FREEZE_SIDE_EFFECT1",
+   "power": 120,
+   "type": 25,
+   "accuracy": 229,
+   "pp": 5
+  },
+  {
+   "id": 60,
+   "identifier": "PSYBEAM",
+   "name": "PSYBEAM",
+   "effect": 76,
+   "effect_name": "CONFUSION_SIDE_EFFECT",
+   "power": 65,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 61,
+   "identifier": "BUBBLEBEAM",
+   "name": "BUBBLEBEAM",
+   "effect": 70,
+   "effect_name": "SPEED_DOWN_SIDE_EFFECT",
+   "power": 65,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 62,
+   "identifier": "AURORA_BEAM",
+   "name": "AURORA BEAM",
+   "effect": 68,
+   "effect_name": "ATTACK_DOWN_SIDE_EFFECT",
+   "power": 65,
+   "type": 25,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 63,
+   "identifier": "HYPER_BEAM",
+   "name": "HYPER BEAM",
+   "effect": 80,
+   "effect_name": "HYPER_BEAM_EFFECT",
+   "power": 150,
+   "type": 0,
+   "accuracy": 229,
+   "pp": 5
+  },
+  {
+   "id": 64,
+   "identifier": "PECK",
+   "name": "PECK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 35,
+   "type": 2,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 65,
+   "identifier": "DRILL_PECK",
+   "name": "DRILL PECK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 2,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 66,
+   "identifier": "SUBMISSION",
+   "name": "SUBMISSION",
+   "effect": 48,
+   "effect_name": "RECOIL_EFFECT",
+   "power": 80,
+   "type": 1,
+   "accuracy": 204,
+   "pp": 25
+  },
+  {
+   "id": 67,
+   "identifier": "LOW_KICK",
+   "name": "LOW KICK",
+   "effect": 37,
+   "effect_name": "FLINCH_SIDE_EFFECT2",
+   "power": 50,
+   "type": 1,
+   "accuracy": 229,
+   "pp": 20
+  },
+  {
+   "id": 68,
+   "identifier": "COUNTER",
+   "name": "COUNTER",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 1,
+   "type": 1,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 69,
+   "identifier": "SEISMIC_TOSS",
+   "name": "SEISMIC TOSS",
+   "effect": 41,
+   "effect_name": "SPECIAL_DAMAGE_EFFECT",
+   "power": 1,
+   "type": 1,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 70,
+   "identifier": "STRENGTH",
+   "name": "STRENGTH",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 71,
+   "identifier": "ABSORB",
+   "name": "ABSORB",
+   "effect": 3,
+   "effect_name": "DRAIN_HP_EFFECT",
+   "power": 20,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 72,
+   "identifier": "MEGA_DRAIN",
+   "name": "MEGA DRAIN",
+   "effect": 3,
+   "effect_name": "DRAIN_HP_EFFECT",
+   "power": 40,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 73,
+   "identifier": "LEECH_SEED",
+   "name": "LEECH SEED",
+   "effect": 84,
+   "effect_name": "LEECH_SEED_EFFECT",
+   "power": 0,
+   "type": 22,
+   "accuracy": 229,
+   "pp": 10
+  },
+  {
+   "id": 74,
+   "identifier": "GROWTH",
+   "name": "GROWTH",
+   "effect": 13,
+   "effect_name": "SPECIAL_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 75,
+   "identifier": "RAZOR_LEAF",
+   "name": "RAZOR LEAF",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 55,
+   "type": 22,
+   "accuracy": 242,
+   "pp": 25
+  },
+  {
+   "id": 76,
+   "identifier": "SOLARBEAM",
+   "name": "SOLARBEAM",
+   "effect": 39,
+   "effect_name": "CHARGE_EFFECT",
+   "power": 120,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 77,
+   "identifier": "POISONPOWDER",
+   "name": "POISONPOWDER",
+   "effect": 66,
+   "effect_name": "POISON_EFFECT",
+   "power": 0,
+   "type": 3,
+   "accuracy": 191,
+   "pp": 35
+  },
+  {
+   "id": 78,
+   "identifier": "STUN_SPORE",
+   "name": "STUN SPORE",
+   "effect": 67,
+   "effect_name": "PARALYZE_EFFECT",
+   "power": 0,
+   "type": 22,
+   "accuracy": 191,
+   "pp": 30
+  },
+  {
+   "id": 79,
+   "identifier": "SLEEP_POWDER",
+   "name": "SLEEP POWDER",
+   "effect": 32,
+   "effect_name": "SLEEP_EFFECT",
+   "power": 0,
+   "type": 22,
+   "accuracy": 191,
+   "pp": 15
+  },
+  {
+   "id": 80,
+   "identifier": "PETAL_DANCE",
+   "name": "PETAL DANCE",
+   "effect": 27,
+   "effect_name": "THRASH_PETAL_DANCE_EFFECT",
+   "power": 70,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 81,
+   "identifier": "STRING_SHOT",
+   "name": "STRING SHOT",
+   "effect": 20,
+   "effect_name": "SPEED_DOWN1_EFFECT",
+   "power": 0,
+   "type": 7,
+   "accuracy": 242,
+   "pp": 40
+  },
+  {
+   "id": 82,
+   "identifier": "DRAGON_RAGE",
+   "name": "DRAGON RAGE",
+   "effect": 41,
+   "effect_name": "SPECIAL_DAMAGE_EFFECT",
+   "power": 1,
+   "type": 26,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 83,
+   "identifier": "FIRE_SPIN",
+   "name": "FIRE SPIN",
+   "effect": 42,
+   "effect_name": "TRAPPING_EFFECT",
+   "power": 15,
+   "type": 20,
+   "accuracy": 178,
+   "pp": 15
+  },
+  {
+   "id": 84,
+   "identifier": "THUNDERSHOCK",
+   "name": "THUNDERSHOCK",
+   "effect": 6,
+   "effect_name": "PARALYZE_SIDE_EFFECT1",
+   "power": 40,
+   "type": 23,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 85,
+   "identifier": "THUNDERBOLT",
+   "name": "THUNDERBOLT",
+   "effect": 6,
+   "effect_name": "PARALYZE_SIDE_EFFECT1",
+   "power": 95,
+   "type": 23,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 86,
+   "identifier": "THUNDER_WAVE",
+   "name": "THUNDER WAVE",
+   "effect": 67,
+   "effect_name": "PARALYZE_EFFECT",
+   "power": 0,
+   "type": 23,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 87,
+   "identifier": "THUNDER",
+   "name": "THUNDER",
+   "effect": 6,
+   "effect_name": "PARALYZE_SIDE_EFFECT1",
+   "power": 120,
+   "type": 23,
+   "accuracy": 178,
+   "pp": 10
+  },
+  {
+   "id": 88,
+   "identifier": "ROCK_THROW",
+   "name": "ROCK THROW",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 50,
+   "type": 5,
+   "accuracy": 165,
+   "pp": 15
+  },
+  {
+   "id": 89,
+   "identifier": "EARTHQUAKE",
+   "name": "EARTHQUAKE",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 100,
+   "type": 4,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 90,
+   "identifier": "FISSURE",
+   "name": "FISSURE",
+   "effect": 38,
+   "effect_name": "OHKO_EFFECT",
+   "power": 1,
+   "type": 4,
+   "accuracy": 76,
+   "pp": 5
+  },
+  {
+   "id": 91,
+   "identifier": "DIG",
+   "name": "DIG",
+   "effect": 39,
+   "effect_name": "CHARGE_EFFECT",
+   "power": 100,
+   "type": 4,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 92,
+   "identifier": "TOXIC",
+   "name": "TOXIC",
+   "effect": 66,
+   "effect_name": "POISON_EFFECT",
+   "power": 0,
+   "type": 3,
+   "accuracy": 216,
+   "pp": 10
+  },
+  {
+   "id": 93,
+   "identifier": "CONFUSION",
+   "name": "CONFUSION",
+   "effect": 76,
+   "effect_name": "CONFUSION_SIDE_EFFECT",
+   "power": 50,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 25
+  },
+  {
+   "id": 94,
+   "identifier": "PSYCHIC_M",
+   "name": "PSYCHIC",
+   "effect": 71,
+   "effect_name": "SPECIAL_DOWN_SIDE_EFFECT",
+   "power": 90,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 95,
+   "identifier": "HYPNOSIS",
+   "name": "HYPNOSIS",
+   "effect": 32,
+   "effect_name": "SLEEP_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 153,
+   "pp": 20
+  },
+  {
+   "id": 96,
+   "identifier": "MEDITATE",
+   "name": "MEDITATE",
+   "effect": 10,
+   "effect_name": "ATTACK_UP1_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 97,
+   "identifier": "AGILITY",
+   "name": "AGILITY",
+   "effect": 52,
+   "effect_name": "SPEED_UP2_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 98,
+   "identifier": "QUICK_ATTACK",
+   "name": "QUICK ATTACK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 40,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 99,
+   "identifier": "RAGE",
+   "name": "RAGE",
+   "effect": 81,
+   "effect_name": "RAGE_EFFECT",
+   "power": 20,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 100,
+   "identifier": "TELEPORT",
+   "name": "TELEPORT",
+   "effect": 28,
+   "effect_name": "SWITCH_AND_TELEPORT_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 101,
+   "identifier": "NIGHT_SHADE",
+   "name": "NIGHT SHADE",
+   "effect": 41,
+   "effect_name": "SPECIAL_DAMAGE_EFFECT",
+   "power": 0,
+   "type": 8,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 102,
+   "identifier": "MIMIC",
+   "name": "MIMIC",
+   "effect": 82,
+   "effect_name": "MIMIC_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 103,
+   "identifier": "SCREECH",
+   "name": "SCREECH",
+   "effect": 59,
+   "effect_name": "DEFENSE_DOWN2_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 40
+  },
+  {
+   "id": 104,
+   "identifier": "DOUBLE_TEAM",
+   "name": "DOUBLE TEAM",
+   "effect": 15,
+   "effect_name": "EVASION_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 105,
+   "identifier": "RECOVER",
+   "name": "RECOVER",
+   "effect": 56,
+   "effect_name": "HEAL_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 106,
+   "identifier": "HARDEN",
+   "name": "HARDEN",
+   "effect": 11,
+   "effect_name": "DEFENSE_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 107,
+   "identifier": "MINIMIZE",
+   "name": "MINIMIZE",
+   "effect": 15,
+   "effect_name": "EVASION_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 108,
+   "identifier": "SMOKESCREEN",
+   "name": "SMOKESCREEN",
+   "effect": 22,
+   "effect_name": "ACCURACY_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 109,
+   "identifier": "CONFUSE_RAY",
+   "name": "CONFUSE RAY",
+   "effect": 49,
+   "effect_name": "CONFUSION_EFFECT",
+   "power": 0,
+   "type": 8,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 110,
+   "identifier": "WITHDRAW",
+   "name": "WITHDRAW",
+   "effect": 11,
+   "effect_name": "DEFENSE_UP1_EFFECT",
+   "power": 0,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 111,
+   "identifier": "DEFENSE_CURL",
+   "name": "DEFENSE CURL",
+   "effect": 11,
+   "effect_name": "DEFENSE_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 112,
+   "identifier": "BARRIER",
+   "name": "BARRIER",
+   "effect": 51,
+   "effect_name": "DEFENSE_UP2_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 113,
+   "identifier": "LIGHT_SCREEN",
+   "name": "LIGHT SCREEN",
+   "effect": 64,
+   "effect_name": "LIGHT_SCREEN_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 114,
+   "identifier": "HAZE",
+   "name": "HAZE",
+   "effect": 25,
+   "effect_name": "HAZE_EFFECT",
+   "power": 0,
+   "type": 25,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 115,
+   "identifier": "REFLECT",
+   "name": "REFLECT",
+   "effect": 65,
+   "effect_name": "REFLECT_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 116,
+   "identifier": "FOCUS_ENERGY",
+   "name": "FOCUS ENERGY",
+   "effect": 47,
+   "effect_name": "FOCUS_ENERGY_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 117,
+   "identifier": "BIDE",
+   "name": "BIDE",
+   "effect": 26,
+   "effect_name": "BIDE_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 118,
+   "identifier": "METRONOME",
+   "name": "METRONOME",
+   "effect": 83,
+   "effect_name": "METRONOME_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 119,
+   "identifier": "MIRROR_MOVE",
+   "name": "MIRROR MOVE",
+   "effect": 9,
+   "effect_name": "MIRROR_MOVE_EFFECT",
+   "power": 0,
+   "type": 2,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 120,
+   "identifier": "SELFDESTRUCT",
+   "name": "SELFDESTRUCT",
+   "effect": 7,
+   "effect_name": "EXPLODE_EFFECT",
+   "power": 130,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 5
+  },
+  {
+   "id": 121,
+   "identifier": "EGG_BOMB",
+   "name": "EGG BOMB",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 100,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 10
+  },
+  {
+   "id": 122,
+   "identifier": "LICK",
+   "name": "LICK",
+   "effect": 36,
+   "effect_name": "PARALYZE_SIDE_EFFECT2",
+   "power": 20,
+   "type": 8,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 123,
+   "identifier": "SMOG",
+   "name": "SMOG",
+   "effect": 33,
+   "effect_name": "POISON_SIDE_EFFECT2",
+   "power": 20,
+   "type": 3,
+   "accuracy": 178,
+   "pp": 20
+  },
+  {
+   "id": 124,
+   "identifier": "SLUDGE",
+   "name": "SLUDGE",
+   "effect": 33,
+   "effect_name": "POISON_SIDE_EFFECT2",
+   "power": 65,
+   "type": 3,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 125,
+   "identifier": "BONE_CLUB",
+   "name": "BONE CLUB",
+   "effect": 31,
+   "effect_name": "FLINCH_SIDE_EFFECT1",
+   "power": 65,
+   "type": 4,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 126,
+   "identifier": "FIRE_BLAST",
+   "name": "FIRE BLAST",
+   "effect": 34,
+   "effect_name": "BURN_SIDE_EFFECT2",
+   "power": 120,
+   "type": 20,
+   "accuracy": 216,
+   "pp": 5
+  },
+  {
+   "id": 127,
+   "identifier": "WATERFALL",
+   "name": "WATERFALL",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 128,
+   "identifier": "CLAMP",
+   "name": "CLAMP",
+   "effect": 42,
+   "effect_name": "TRAPPING_EFFECT",
+   "power": 35,
+   "type": 21,
+   "accuracy": 191,
+   "pp": 10
+  },
+  {
+   "id": 129,
+   "identifier": "SWIFT",
+   "name": "SWIFT",
+   "effect": 17,
+   "effect_name": "SWIFT_EFFECT",
+   "power": 60,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 130,
+   "identifier": "SKULL_BASH",
+   "name": "SKULL BASH",
+   "effect": 39,
+   "effect_name": "CHARGE_EFFECT",
+   "power": 100,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 131,
+   "identifier": "SPIKE_CANNON",
+   "name": "SPIKE CANNON",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 20,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 132,
+   "identifier": "CONSTRICT",
+   "name": "CONSTRICT",
+   "effect": 70,
+   "effect_name": "SPEED_DOWN_SIDE_EFFECT",
+   "power": 10,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 35
+  },
+  {
+   "id": 133,
+   "identifier": "AMNESIA",
+   "name": "AMNESIA",
+   "effect": 53,
+   "effect_name": "SPECIAL_UP2_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 134,
+   "identifier": "KINESIS",
+   "name": "KINESIS",
+   "effect": 22,
+   "effect_name": "ACCURACY_DOWN1_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 204,
+   "pp": 15
+  },
+  {
+   "id": 135,
+   "identifier": "SOFTBOILED",
+   "name": "SOFTBOILED",
+   "effect": 56,
+   "effect_name": "HEAL_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 136,
+   "identifier": "HI_JUMP_KICK",
+   "name": "HI JUMP KICK",
+   "effect": 45,
+   "effect_name": "JUMP_KICK_EFFECT",
+   "power": 85,
+   "type": 1,
+   "accuracy": 229,
+   "pp": 20
+  },
+  {
+   "id": 137,
+   "identifier": "GLARE",
+   "name": "GLARE",
+   "effect": 67,
+   "effect_name": "PARALYZE_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 30
+  },
+  {
+   "id": 138,
+   "identifier": "DREAM_EATER",
+   "name": "DREAM EATER",
+   "effect": 8,
+   "effect_name": "DREAM_EATER_EFFECT",
+   "power": 100,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 139,
+   "identifier": "POISON_GAS",
+   "name": "POISON GAS",
+   "effect": 66,
+   "effect_name": "POISON_EFFECT",
+   "power": 0,
+   "type": 3,
+   "accuracy": 140,
+   "pp": 40
+  },
+  {
+   "id": 140,
+   "identifier": "BARRAGE",
+   "name": "BARRAGE",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 15,
+   "type": 0,
+   "accuracy": 216,
+   "pp": 20
+  },
+  {
+   "id": 141,
+   "identifier": "LEECH_LIFE",
+   "name": "LEECH LIFE",
+   "effect": 3,
+   "effect_name": "DRAIN_HP_EFFECT",
+   "power": 20,
+   "type": 7,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 142,
+   "identifier": "LOVELY_KISS",
+   "name": "LOVELY KISS",
+   "effect": 32,
+   "effect_name": "SLEEP_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 191,
+   "pp": 10
+  },
+  {
+   "id": 143,
+   "identifier": "SKY_ATTACK",
+   "name": "SKY ATTACK",
+   "effect": 39,
+   "effect_name": "CHARGE_EFFECT",
+   "power": 140,
+   "type": 2,
+   "accuracy": 229,
+   "pp": 5
+  },
+  {
+   "id": 144,
+   "identifier": "TRANSFORM",
+   "name": "TRANSFORM",
+   "effect": 57,
+   "effect_name": "TRANSFORM_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 145,
+   "identifier": "BUBBLE",
+   "name": "BUBBLE",
+   "effect": 70,
+   "effect_name": "SPEED_DOWN_SIDE_EFFECT",
+   "power": 20,
+   "type": 21,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 146,
+   "identifier": "DIZZY_PUNCH",
+   "name": "DIZZY PUNCH",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 147,
+   "identifier": "SPORE",
+   "name": "SPORE",
+   "effect": 32,
+   "effect_name": "SLEEP_EFFECT",
+   "power": 0,
+   "type": 22,
+   "accuracy": 255,
+   "pp": 15
+  },
+  {
+   "id": 148,
+   "identifier": "FLASH",
+   "name": "FLASH",
+   "effect": 22,
+   "effect_name": "ACCURACY_DOWN1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 178,
+   "pp": 20
+  },
+  {
+   "id": 149,
+   "identifier": "PSYWAVE",
+   "name": "PSYWAVE",
+   "effect": 41,
+   "effect_name": "SPECIAL_DAMAGE_EFFECT",
+   "power": 1,
+   "type": 24,
+   "accuracy": 204,
+   "pp": 15
+  },
+  {
+   "id": 150,
+   "identifier": "SPLASH",
+   "name": "SPLASH",
+   "effect": 85,
+   "effect_name": "SPLASH_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 151,
+   "identifier": "ACID_ARMOR",
+   "name": "ACID ARMOR",
+   "effect": 51,
+   "effect_name": "DEFENSE_UP2_EFFECT",
+   "power": 0,
+   "type": 3,
+   "accuracy": 255,
+   "pp": 40
+  },
+  {
+   "id": 152,
+   "identifier": "CRABHAMMER",
+   "name": "CRABHAMMER",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 90,
+   "type": 21,
+   "accuracy": 216,
+   "pp": 10
+  },
+  {
+   "id": 153,
+   "identifier": "EXPLOSION",
+   "name": "EXPLOSION",
+   "effect": 7,
+   "effect_name": "EXPLODE_EFFECT",
+   "power": 170,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 5
+  },
+  {
+   "id": 154,
+   "identifier": "FURY_SWIPES",
+   "name": "FURY SWIPES",
+   "effect": 29,
+   "effect_name": "TWO_TO_FIVE_ATTACKS_EFFECT",
+   "power": 18,
+   "type": 0,
+   "accuracy": 204,
+   "pp": 15
+  },
+  {
+   "id": 155,
+   "identifier": "BONEMERANG",
+   "name": "BONEMERANG",
+   "effect": 44,
+   "effect_name": "ATTACK_TWICE_EFFECT",
+   "power": 50,
+   "type": 4,
+   "accuracy": 229,
+   "pp": 10
+  },
+  {
+   "id": 156,
+   "identifier": "REST",
+   "name": "REST",
+   "effect": 56,
+   "effect_name": "HEAL_EFFECT",
+   "power": 0,
+   "type": 24,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 157,
+   "identifier": "ROCK_SLIDE",
+   "name": "ROCK SLIDE",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 75,
+   "type": 5,
+   "accuracy": 229,
+   "pp": 10
+  },
+  {
+   "id": 158,
+   "identifier": "HYPER_FANG",
+   "name": "HYPER FANG",
+   "effect": 31,
+   "effect_name": "FLINCH_SIDE_EFFECT1",
+   "power": 80,
+   "type": 0,
+   "accuracy": 229,
+   "pp": 15
+  },
+  {
+   "id": 159,
+   "identifier": "SHARPEN",
+   "name": "SHARPEN",
+   "effect": 10,
+   "effect_name": "ATTACK_UP1_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 160,
+   "identifier": "CONVERSION",
+   "name": "CONVERSION",
+   "effect": 24,
+   "effect_name": "CONVERSION_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 30
+  },
+  {
+   "id": 161,
+   "identifier": "TRI_ATTACK",
+   "name": "TRI ATTACK",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 80,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 162,
+   "identifier": "SUPER_FANG",
+   "name": "SUPER FANG",
+   "effect": 40,
+   "effect_name": "SUPER_FANG_EFFECT",
+   "power": 1,
+   "type": 0,
+   "accuracy": 229,
+   "pp": 10
+  },
+  {
+   "id": 163,
+   "identifier": "SLASH",
+   "name": "SLASH",
+   "effect": 0,
+   "effect_name": "NO_ADDITIONAL_EFFECT",
+   "power": 70,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 20
+  },
+  {
+   "id": 164,
+   "identifier": "SUBSTITUTE",
+   "name": "SUBSTITUTE",
+   "effect": 79,
+   "effect_name": "SUBSTITUTE_EFFECT",
+   "power": 0,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  },
+  {
+   "id": 165,
+   "identifier": "STRUGGLE",
+   "name": "STRUGGLE",
+   "effect": 48,
+   "effect_name": "RECOIL_EFFECT",
+   "power": 50,
+   "type": 0,
+   "accuracy": 255,
+   "pp": 10
+  }
+ ],
+ "items": [
+  {
+   "id": 1,
+   "identifier": "MASTER_BALL",
+   "name": "MASTER BALL",
+   "price": 0,
+   "key_item": false,
+   "ball": true
+  },
+  {
+   "id": 2,
+   "identifier": "ULTRA_BALL",
+   "name": "ULTRA BALL",
+   "price": 1200,
+   "key_item": false,
+   "ball": true
+  },
+  {
+   "id": 3,
+   "identifier": "GREAT_BALL",
+   "name": "GREAT BALL",
+   "price": 600,
+   "key_item": false,
+   "ball": true
+  },
+  {
+   "id": 4,
+   "identifier": "POKE_BALL",
+   "name": "POKé BALL",
+   "price": 200,
+   "key_item": false,
+   "ball": true
+  },
+  {
+   "id": 5,
+   "identifier": "TOWN_MAP",
+   "name": "TOWN MAP",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 6,
+   "identifier": "BICYCLE",
+   "name": "BICYCLE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 7,
+   "identifier": "SURFBOARD",
+   "name": "?????",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 8,
+   "identifier": "SAFARI_BALL",
+   "name": "SAFARI BALL",
+   "price": 1000,
+   "key_item": true,
+   "ball": true
+  },
+  {
+   "id": 9,
+   "identifier": "POKEDEX",
+   "name": "POKéDEX",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 10,
+   "identifier": "MOON_STONE",
+   "name": "MOON STONE",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 11,
+   "identifier": "ANTIDOTE",
+   "name": "ANTIDOTE",
+   "price": 100,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 12,
+   "identifier": "BURN_HEAL",
+   "name": "BURN HEAL",
+   "price": 250,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 13,
+   "identifier": "ICE_HEAL",
+   "name": "ICE HEAL",
+   "price": 250,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 14,
+   "identifier": "AWAKENING",
+   "name": "AWAKENING",
+   "price": 200,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 15,
+   "identifier": "PARLYZ_HEAL",
+   "name": "PARLYZ HEAL",
+   "price": 200,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 16,
+   "identifier": "FULL_RESTORE",
+   "name": "FULL RESTORE",
+   "price": 3000,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 17,
+   "identifier": "MAX_POTION",
+   "name": "MAX POTION",
+   "price": 2500,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 18,
+   "identifier": "HYPER_POTION",
+   "name": "HYPER POTION",
+   "price": 1500,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 19,
+   "identifier": "SUPER_POTION",
+   "name": "SUPER POTION",
+   "price": 700,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 20,
+   "identifier": "POTION",
+   "name": "POTION",
+   "price": 300,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 21,
+   "identifier": "BOULDERBADGE",
+   "name": "BOULDERBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 22,
+   "identifier": "CASCADEBADGE",
+   "name": "CASCADEBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 23,
+   "identifier": "THUNDERBADGE",
+   "name": "THUNDERBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 24,
+   "identifier": "RAINBOWBADGE",
+   "name": "RAINBOWBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 25,
+   "identifier": "SOULBADGE",
+   "name": "SOULBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 26,
+   "identifier": "MARSHBADGE",
+   "name": "MARSHBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 27,
+   "identifier": "VOLCANOBADGE",
+   "name": "VOLCANOBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 28,
+   "identifier": "EARTHBADGE",
+   "name": "EARTHBADGE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 29,
+   "identifier": "ESCAPE_ROPE",
+   "name": "ESCAPE ROPE",
+   "price": 550,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 30,
+   "identifier": "REPEL",
+   "name": "REPEL",
+   "price": 350,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 31,
+   "identifier": "OLD_AMBER",
+   "name": "OLD AMBER",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 32,
+   "identifier": "FIRE_STONE",
+   "name": "FIRE STONE",
+   "price": 2100,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 33,
+   "identifier": "THUNDER_STONE",
+   "name": "THUNDERSTONE",
+   "price": 2100,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 34,
+   "identifier": "WATER_STONE",
+   "name": "WATER STONE",
+   "price": 2100,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 35,
+   "identifier": "HP_UP",
+   "name": "HP UP",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 36,
+   "identifier": "PROTEIN",
+   "name": "PROTEIN",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 37,
+   "identifier": "IRON",
+   "name": "IRON",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 38,
+   "identifier": "CARBOS",
+   "name": "CARBOS",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 39,
+   "identifier": "CALCIUM",
+   "name": "CALCIUM",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 40,
+   "identifier": "RARE_CANDY",
+   "name": "RARE CANDY",
+   "price": 4800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 41,
+   "identifier": "DOME_FOSSIL",
+   "name": "DOME FOSSIL",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 42,
+   "identifier": "HELIX_FOSSIL",
+   "name": "HELIX FOSSIL",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 43,
+   "identifier": "SECRET_KEY",
+   "name": "SECRET KEY",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 44,
+   "identifier": "ITEM_2C",
+   "name": "?????",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 45,
+   "identifier": "BIKE_VOUCHER",
+   "name": "BIKE VOUCHER",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 46,
+   "identifier": "X_ACCURACY",
+   "name": "X ACCURACY",
+   "price": 950,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 47,
+   "identifier": "LEAF_STONE",
+   "name": "LEAF STONE",
+   "price": 2100,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 48,
+   "identifier": "CARD_KEY",
+   "name": "CARD KEY",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 49,
+   "identifier": "NUGGET",
+   "name": "NUGGET",
+   "price": 10000,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 50,
+   "identifier": "ITEM_32",
+   "name": "PP UP",
+   "price": 9800,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 51,
+   "identifier": "POKE_DOLL",
+   "name": "POKé DOLL",
+   "price": 1000,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 52,
+   "identifier": "FULL_HEAL",
+   "name": "FULL HEAL",
+   "price": 600,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 53,
+   "identifier": "REVIVE",
+   "name": "REVIVE",
+   "price": 1500,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 54,
+   "identifier": "MAX_REVIVE",
+   "name": "MAX REVIVE",
+   "price": 4000,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 55,
+   "identifier": "GUARD_SPEC",
+   "name": "GUARD SPEC.",
+   "price": 700,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 56,
+   "identifier": "SUPER_REPEL",
+   "name": "SUPER REPEL",
+   "price": 500,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 57,
+   "identifier": "MAX_REPEL",
+   "name": "MAX REPEL",
+   "price": 700,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 58,
+   "identifier": "DIRE_HIT",
+   "name": "DIRE HIT",
+   "price": 650,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 59,
+   "identifier": "COIN",
+   "name": "COIN",
+   "price": 10,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 60,
+   "identifier": "FRESH_WATER",
+   "name": "FRESH WATER",
+   "price": 200,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 61,
+   "identifier": "SODA_POP",
+   "name": "SODA POP",
+   "price": 300,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 62,
+   "identifier": "LEMONADE",
+   "name": "LEMONADE",
+   "price": 350,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 63,
+   "identifier": "S_S_TICKET",
+   "name": "S.S.TICKET",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 64,
+   "identifier": "GOLD_TEETH",
+   "name": "GOLD TEETH",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 65,
+   "identifier": "X_ATTACK",
+   "name": "X ATTACK",
+   "price": 500,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 66,
+   "identifier": "X_DEFEND",
+   "name": "X DEFEND",
+   "price": 550,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 67,
+   "identifier": "X_SPEED",
+   "name": "X SPEED",
+   "price": 350,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 68,
+   "identifier": "X_SPECIAL",
+   "name": "X SPECIAL",
+   "price": 350,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 69,
+   "identifier": "COIN_CASE",
+   "name": "COIN CASE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 70,
+   "identifier": "OAKS_PARCEL",
+   "name": "OAK's PARCEL",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 71,
+   "identifier": "ITEMFINDER",
+   "name": "ITEMFINDER",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 72,
+   "identifier": "SILPH_SCOPE",
+   "name": "SILPH SCOPE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 73,
+   "identifier": "POKE_FLUTE",
+   "name": "POKé FLUTE",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 74,
+   "identifier": "LIFT_KEY",
+   "name": "LIFT KEY",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 75,
+   "identifier": "EXP_ALL",
+   "name": "EXP.ALL",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 76,
+   "identifier": "OLD_ROD",
+   "name": "OLD ROD",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 77,
+   "identifier": "GOOD_ROD",
+   "name": "GOOD ROD",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 78,
+   "identifier": "SUPER_ROD",
+   "name": "SUPER ROD",
+   "price": 0,
+   "key_item": true,
+   "ball": false
+  },
+  {
+   "id": 79,
+   "identifier": "PP_UP",
+   "name": "PP UP",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 80,
+   "identifier": "ETHER",
+   "name": "ETHER",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 81,
+   "identifier": "MAX_ETHER",
+   "name": "MAX ETHER",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 82,
+   "identifier": "ELIXER",
+   "name": "ELIXER",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 83,
+   "identifier": "MAX_ELIXER",
+   "name": "MAX ELIXER",
+   "price": 0,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 84,
+   "identifier": "FLOOR_B2F",
+   "name": "B2F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 85,
+   "identifier": "FLOOR_B1F",
+   "name": "B1F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 86,
+   "identifier": "FLOOR_1F",
+   "name": "1F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 87,
+   "identifier": "FLOOR_2F",
+   "name": "2F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 88,
+   "identifier": "FLOOR_3F",
+   "name": "3F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 89,
+   "identifier": "FLOOR_4F",
+   "name": "4F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 90,
+   "identifier": "FLOOR_5F",
+   "name": "5F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 91,
+   "identifier": "FLOOR_6F",
+   "name": "6F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 92,
+   "identifier": "FLOOR_7F",
+   "name": "7F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 93,
+   "identifier": "FLOOR_8F",
+   "name": "8F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 94,
+   "identifier": "FLOOR_9F",
+   "name": "9F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 95,
+   "identifier": "FLOOR_10F",
+   "name": "10F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 96,
+   "identifier": "FLOOR_11F",
+   "name": "11F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 97,
+   "identifier": "FLOOR_B4F",
+   "name": "B4F",
+   "price": null,
+   "key_item": false,
+   "ball": false
+  },
+  {
+   "id": 196,
+   "identifier": "HM01",
+   "name": "HM01",
+   "price": null,
+   "key_item": true,
+   "ball": false,
+   "move": 15
+  },
+  {
+   "id": 197,
+   "identifier": "HM02",
+   "name": "HM02",
+   "price": null,
+   "key_item": true,
+   "ball": false,
+   "move": 19
+  },
+  {
+   "id": 198,
+   "identifier": "HM03",
+   "name": "HM03",
+   "price": null,
+   "key_item": true,
+   "ball": false,
+   "move": 57
+  },
+  {
+   "id": 199,
+   "identifier": "HM04",
+   "name": "HM04",
+   "price": null,
+   "key_item": true,
+   "ball": false,
+   "move": 70
+  },
+  {
+   "id": 200,
+   "identifier": "HM05",
+   "name": "HM05",
+   "price": null,
+   "key_item": true,
+   "ball": false,
+   "move": 148
+  },
+  {
+   "id": 201,
+   "identifier": "TM01",
+   "name": "TM01",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 5
+  },
+  {
+   "id": 202,
+   "identifier": "TM02",
+   "name": "TM02",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 13
+  },
+  {
+   "id": 203,
+   "identifier": "TM03",
+   "name": "TM03",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 14
+  },
+  {
+   "id": 204,
+   "identifier": "TM04",
+   "name": "TM04",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 18
+  },
+  {
+   "id": 205,
+   "identifier": "TM05",
+   "name": "TM05",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 25
+  },
+  {
+   "id": 206,
+   "identifier": "TM06",
+   "name": "TM06",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 92
+  },
+  {
+   "id": 207,
+   "identifier": "TM07",
+   "name": "TM07",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 32
+  },
+  {
+   "id": 208,
+   "identifier": "TM08",
+   "name": "TM08",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 34
+  },
+  {
+   "id": 209,
+   "identifier": "TM09",
+   "name": "TM09",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 36
+  },
+  {
+   "id": 210,
+   "identifier": "TM10",
+   "name": "TM10",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 38
+  },
+  {
+   "id": 211,
+   "identifier": "TM11",
+   "name": "TM11",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 61
+  },
+  {
+   "id": 212,
+   "identifier": "TM12",
+   "name": "TM12",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 55
+  },
+  {
+   "id": 213,
+   "identifier": "TM13",
+   "name": "TM13",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 58
+  },
+  {
+   "id": 214,
+   "identifier": "TM14",
+   "name": "TM14",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 59
+  },
+  {
+   "id": 215,
+   "identifier": "TM15",
+   "name": "TM15",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 63
+  },
+  {
+   "id": 216,
+   "identifier": "TM16",
+   "name": "TM16",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 6
+  },
+  {
+   "id": 217,
+   "identifier": "TM17",
+   "name": "TM17",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 66
+  },
+  {
+   "id": 218,
+   "identifier": "TM18",
+   "name": "TM18",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 68
+  },
+  {
+   "id": 219,
+   "identifier": "TM19",
+   "name": "TM19",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 69
+  },
+  {
+   "id": 220,
+   "identifier": "TM20",
+   "name": "TM20",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 99
+  },
+  {
+   "id": 221,
+   "identifier": "TM21",
+   "name": "TM21",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 72
+  },
+  {
+   "id": 222,
+   "identifier": "TM22",
+   "name": "TM22",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 76
+  },
+  {
+   "id": 223,
+   "identifier": "TM23",
+   "name": "TM23",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 82
+  },
+  {
+   "id": 224,
+   "identifier": "TM24",
+   "name": "TM24",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 85
+  },
+  {
+   "id": 225,
+   "identifier": "TM25",
+   "name": "TM25",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 87
+  },
+  {
+   "id": 226,
+   "identifier": "TM26",
+   "name": "TM26",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 89
+  },
+  {
+   "id": 227,
+   "identifier": "TM27",
+   "name": "TM27",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 90
+  },
+  {
+   "id": 228,
+   "identifier": "TM28",
+   "name": "TM28",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 91
+  },
+  {
+   "id": 229,
+   "identifier": "TM29",
+   "name": "TM29",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 94
+  },
+  {
+   "id": 230,
+   "identifier": "TM30",
+   "name": "TM30",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 100
+  },
+  {
+   "id": 231,
+   "identifier": "TM31",
+   "name": "TM31",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 102
+  },
+  {
+   "id": 232,
+   "identifier": "TM32",
+   "name": "TM32",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 104
+  },
+  {
+   "id": 233,
+   "identifier": "TM33",
+   "name": "TM33",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 115
+  },
+  {
+   "id": 234,
+   "identifier": "TM34",
+   "name": "TM34",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 117
+  },
+  {
+   "id": 235,
+   "identifier": "TM35",
+   "name": "TM35",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 118
+  },
+  {
+   "id": 236,
+   "identifier": "TM36",
+   "name": "TM36",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 120
+  },
+  {
+   "id": 237,
+   "identifier": "TM37",
+   "name": "TM37",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 121
+  },
+  {
+   "id": 238,
+   "identifier": "TM38",
+   "name": "TM38",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 126
+  },
+  {
+   "id": 239,
+   "identifier": "TM39",
+   "name": "TM39",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 129
+  },
+  {
+   "id": 240,
+   "identifier": "TM40",
+   "name": "TM40",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 130
+  },
+  {
+   "id": 241,
+   "identifier": "TM41",
+   "name": "TM41",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 135
+  },
+  {
+   "id": 242,
+   "identifier": "TM42",
+   "name": "TM42",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 138
+  },
+  {
+   "id": 243,
+   "identifier": "TM43",
+   "name": "TM43",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 143
+  },
+  {
+   "id": 244,
+   "identifier": "TM44",
+   "name": "TM44",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 156
+  },
+  {
+   "id": 245,
+   "identifier": "TM45",
+   "name": "TM45",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 86
+  },
+  {
+   "id": 246,
+   "identifier": "TM46",
+   "name": "TM46",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 149
+  },
+  {
+   "id": 247,
+   "identifier": "TM47",
+   "name": "TM47",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 153
+  },
+  {
+   "id": 248,
+   "identifier": "TM48",
+   "name": "TM48",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 157
+  },
+  {
+   "id": 249,
+   "identifier": "TM49",
+   "name": "TM49",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 161
+  },
+  {
+   "id": 250,
+   "identifier": "TM50",
+   "name": "TM50",
+   "price": null,
+   "key_item": false,
+   "ball": false,
+   "move": 164
+  }
+ ]
+}

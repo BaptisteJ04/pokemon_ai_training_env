@@ -1,0 +1,2101 @@
+{
+ "meta": {
+  "rom_sha1": "ea9bcae617fdf159b045185467ae58b2e4a48b9a",
+  "pokered_commit": "0dbf95cd12f5b1511c62ce69efe283000f780a8f",
+  "pokered_symbols_commit": "bd77855a9f6407f47d61d94c5eefff7ac83c05a5",
+  "generator": "tools/extract_game_data.py"
+ },
+ "maps": [
+  {
+   "id": 0,
+   "identifier": "PALLET_TOWN",
+   "name": "Pallet Town",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 1,
+   "identifier": "VIRIDIAN_CITY",
+   "name": "Viridian City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 2,
+   "identifier": "PEWTER_CITY",
+   "name": "Pewter City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 3,
+   "identifier": "CERULEAN_CITY",
+   "name": "Cerulean City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 4,
+   "identifier": "LAVENDER_TOWN",
+   "name": "Lavender Town",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 5,
+   "identifier": "VERMILION_CITY",
+   "name": "Vermilion City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 6,
+   "identifier": "CELADON_CITY",
+   "name": "Celadon City",
+   "width": 25,
+   "height": 18
+  },
+  {
+   "id": 7,
+   "identifier": "FUCHSIA_CITY",
+   "name": "Fuchsia City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 8,
+   "identifier": "CINNABAR_ISLAND",
+   "name": "Cinnabar Island",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 9,
+   "identifier": "INDIGO_PLATEAU",
+   "name": "Indigo Plateau",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 10,
+   "identifier": "SAFFRON_CITY",
+   "name": "Saffron City",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 12,
+   "identifier": "ROUTE_1",
+   "name": "Route 1",
+   "width": 10,
+   "height": 18
+  },
+  {
+   "id": 13,
+   "identifier": "ROUTE_2",
+   "name": "Route 2",
+   "width": 10,
+   "height": 36
+  },
+  {
+   "id": 14,
+   "identifier": "ROUTE_3",
+   "name": "Route 3",
+   "width": 35,
+   "height": 9
+  },
+  {
+   "id": 15,
+   "identifier": "ROUTE_4",
+   "name": "Route 4",
+   "width": 45,
+   "height": 9
+  },
+  {
+   "id": 16,
+   "identifier": "ROUTE_5",
+   "name": "Route 5",
+   "width": 10,
+   "height": 18
+  },
+  {
+   "id": 17,
+   "identifier": "ROUTE_6",
+   "name": "Route 6",
+   "width": 10,
+   "height": 18
+  },
+  {
+   "id": 18,
+   "identifier": "ROUTE_7",
+   "name": "Route 7",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 19,
+   "identifier": "ROUTE_8",
+   "name": "Route 8",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 20,
+   "identifier": "ROUTE_9",
+   "name": "Route 9",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 21,
+   "identifier": "ROUTE_10",
+   "name": "Route 10",
+   "width": 10,
+   "height": 36
+  },
+  {
+   "id": 22,
+   "identifier": "ROUTE_11",
+   "name": "Route 11",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 23,
+   "identifier": "ROUTE_12",
+   "name": "Route 12",
+   "width": 10,
+   "height": 54
+  },
+  {
+   "id": 24,
+   "identifier": "ROUTE_13",
+   "name": "Route 13",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 25,
+   "identifier": "ROUTE_14",
+   "name": "Route 14",
+   "width": 10,
+   "height": 27
+  },
+  {
+   "id": 26,
+   "identifier": "ROUTE_15",
+   "name": "Route 15",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 27,
+   "identifier": "ROUTE_16",
+   "name": "Route 16",
+   "width": 20,
+   "height": 9
+  },
+  {
+   "id": 28,
+   "identifier": "ROUTE_17",
+   "name": "Route 17",
+   "width": 10,
+   "height": 72
+  },
+  {
+   "id": 29,
+   "identifier": "ROUTE_18",
+   "name": "Route 18",
+   "width": 25,
+   "height": 9
+  },
+  {
+   "id": 30,
+   "identifier": "ROUTE_19",
+   "name": "Route 19",
+   "width": 10,
+   "height": 27
+  },
+  {
+   "id": 31,
+   "identifier": "ROUTE_20",
+   "name": "Route 20",
+   "width": 50,
+   "height": 9
+  },
+  {
+   "id": 32,
+   "identifier": "ROUTE_21",
+   "name": "Route 21",
+   "width": 10,
+   "height": 45
+  },
+  {
+   "id": 33,
+   "identifier": "ROUTE_22",
+   "name": "Route 22",
+   "width": 20,
+   "height": 9
+  },
+  {
+   "id": 34,
+   "identifier": "ROUTE_23",
+   "name": "Route 23",
+   "width": 10,
+   "height": 72
+  },
+  {
+   "id": 35,
+   "identifier": "ROUTE_24",
+   "name": "Route 24",
+   "width": 10,
+   "height": 18
+  },
+  {
+   "id": 36,
+   "identifier": "ROUTE_25",
+   "name": "Route 25",
+   "width": 30,
+   "height": 9
+  },
+  {
+   "id": 37,
+   "identifier": "REDS_HOUSE_1F",
+   "name": "Reds House 1F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 38,
+   "identifier": "REDS_HOUSE_2F",
+   "name": "Reds House 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 39,
+   "identifier": "BLUES_HOUSE",
+   "name": "Blues House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 40,
+   "identifier": "OAKS_LAB",
+   "name": "Oaks Lab",
+   "width": 5,
+   "height": 6
+  },
+  {
+   "id": 41,
+   "identifier": "VIRIDIAN_POKECENTER",
+   "name": "Viridian Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 42,
+   "identifier": "VIRIDIAN_MART",
+   "name": "Viridian Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 43,
+   "identifier": "VIRIDIAN_SCHOOL_HOUSE",
+   "name": "Viridian School House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 44,
+   "identifier": "VIRIDIAN_NICKNAME_HOUSE",
+   "name": "Viridian Nickname House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 45,
+   "identifier": "VIRIDIAN_GYM",
+   "name": "Viridian Gym",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 46,
+   "identifier": "DIGLETTS_CAVE_ROUTE_2",
+   "name": "Digletts Cave Route 2",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 47,
+   "identifier": "VIRIDIAN_FOREST_NORTH_GATE",
+   "name": "Viridian Forest North Gate",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 48,
+   "identifier": "ROUTE_2_TRADE_HOUSE",
+   "name": "Route 2 Trade House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 49,
+   "identifier": "ROUTE_2_GATE",
+   "name": "Route 2 Gate",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 50,
+   "identifier": "VIRIDIAN_FOREST_SOUTH_GATE",
+   "name": "Viridian Forest South Gate",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 51,
+   "identifier": "VIRIDIAN_FOREST",
+   "name": "Viridian Forest",
+   "width": 17,
+   "height": 24
+  },
+  {
+   "id": 52,
+   "identifier": "MUSEUM_1F",
+   "name": "Museum 1F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 53,
+   "identifier": "MUSEUM_2F",
+   "name": "Museum 2F",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 54,
+   "identifier": "PEWTER_GYM",
+   "name": "Pewter Gym",
+   "width": 5,
+   "height": 7
+  },
+  {
+   "id": 55,
+   "identifier": "PEWTER_NIDORAN_HOUSE",
+   "name": "Pewter Nidoran House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 56,
+   "identifier": "PEWTER_MART",
+   "name": "Pewter Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 57,
+   "identifier": "PEWTER_SPEECH_HOUSE",
+   "name": "Pewter Speech House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 58,
+   "identifier": "PEWTER_POKECENTER",
+   "name": "Pewter Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 59,
+   "identifier": "MT_MOON_1F",
+   "name": "Mt Moon 1F",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 60,
+   "identifier": "MT_MOON_B1F",
+   "name": "Mt Moon B1F",
+   "width": 14,
+   "height": 14
+  },
+  {
+   "id": 61,
+   "identifier": "MT_MOON_B2F",
+   "name": "Mt Moon B2F",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 62,
+   "identifier": "CERULEAN_TRASHED_HOUSE",
+   "name": "Cerulean Trashed House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 63,
+   "identifier": "CERULEAN_TRADE_HOUSE",
+   "name": "Cerulean Trade House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 64,
+   "identifier": "CERULEAN_POKECENTER",
+   "name": "Cerulean Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 65,
+   "identifier": "CERULEAN_GYM",
+   "name": "Cerulean Gym",
+   "width": 5,
+   "height": 7
+  },
+  {
+   "id": 66,
+   "identifier": "BIKE_SHOP",
+   "name": "Bike Shop",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 67,
+   "identifier": "CERULEAN_MART",
+   "name": "Cerulean Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 68,
+   "identifier": "MT_MOON_POKECENTER",
+   "name": "Mt Moon Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 69,
+   "identifier": "CERULEAN_TRASHED_HOUSE_COPY",
+   "name": "Cerulean Trashed House Copy",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 70,
+   "identifier": "ROUTE_5_GATE",
+   "name": "Route 5 Gate",
+   "width": 4,
+   "height": 3
+  },
+  {
+   "id": 71,
+   "identifier": "UNDERGROUND_PATH_ROUTE_5",
+   "name": "Underground Path Route 5",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 72,
+   "identifier": "DAYCARE",
+   "name": "Daycare",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 73,
+   "identifier": "ROUTE_6_GATE",
+   "name": "Route 6 Gate",
+   "width": 4,
+   "height": 3
+  },
+  {
+   "id": 74,
+   "identifier": "UNDERGROUND_PATH_ROUTE_6",
+   "name": "Underground Path Route 6",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 75,
+   "identifier": "UNDERGROUND_PATH_ROUTE_6_COPY",
+   "name": "Underground Path Route 6 Copy",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 76,
+   "identifier": "ROUTE_7_GATE",
+   "name": "Route 7 Gate",
+   "width": 3,
+   "height": 4
+  },
+  {
+   "id": 77,
+   "identifier": "UNDERGROUND_PATH_ROUTE_7",
+   "name": "Underground Path Route 7",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 78,
+   "identifier": "UNDERGROUND_PATH_ROUTE_7_COPY",
+   "name": "Underground Path Route 7 Copy",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 79,
+   "identifier": "ROUTE_8_GATE",
+   "name": "Route 8 Gate",
+   "width": 3,
+   "height": 4
+  },
+  {
+   "id": 80,
+   "identifier": "UNDERGROUND_PATH_ROUTE_8",
+   "name": "Underground Path Route 8",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 81,
+   "identifier": "ROCK_TUNNEL_POKECENTER",
+   "name": "Rock Tunnel Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 82,
+   "identifier": "ROCK_TUNNEL_1F",
+   "name": "Rock Tunnel 1F",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 83,
+   "identifier": "POWER_PLANT",
+   "name": "Power Plant",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 84,
+   "identifier": "ROUTE_11_GATE_1F",
+   "name": "Route 11 Gate 1F",
+   "width": 4,
+   "height": 5
+  },
+  {
+   "id": 85,
+   "identifier": "DIGLETTS_CAVE_ROUTE_11",
+   "name": "Digletts Cave Route 11",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 86,
+   "identifier": "ROUTE_11_GATE_2F",
+   "name": "Route 11 Gate 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 87,
+   "identifier": "ROUTE_12_GATE_1F",
+   "name": "Route 12 Gate 1F",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 88,
+   "identifier": "BILLS_HOUSE",
+   "name": "Bills House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 89,
+   "identifier": "VERMILION_POKECENTER",
+   "name": "Vermilion Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 90,
+   "identifier": "POKEMON_FAN_CLUB",
+   "name": "Pokemon Fan Club",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 91,
+   "identifier": "VERMILION_MART",
+   "name": "Vermilion Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 92,
+   "identifier": "VERMILION_GYM",
+   "name": "Vermilion Gym",
+   "width": 5,
+   "height": 9
+  },
+  {
+   "id": 93,
+   "identifier": "VERMILION_PIDGEY_HOUSE",
+   "name": "Vermilion Pidgey House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 94,
+   "identifier": "VERMILION_DOCK",
+   "name": "Vermilion Dock",
+   "width": 14,
+   "height": 6
+  },
+  {
+   "id": 95,
+   "identifier": "SS_ANNE_1F",
+   "name": "Ss Anne 1F",
+   "width": 20,
+   "height": 9
+  },
+  {
+   "id": 96,
+   "identifier": "SS_ANNE_2F",
+   "name": "Ss Anne 2F",
+   "width": 20,
+   "height": 9
+  },
+  {
+   "id": 97,
+   "identifier": "SS_ANNE_3F",
+   "name": "Ss Anne 3F",
+   "width": 10,
+   "height": 3
+  },
+  {
+   "id": 98,
+   "identifier": "SS_ANNE_B1F",
+   "name": "Ss Anne B1F",
+   "width": 15,
+   "height": 4
+  },
+  {
+   "id": 99,
+   "identifier": "SS_ANNE_BOW",
+   "name": "Ss Anne Bow",
+   "width": 10,
+   "height": 7
+  },
+  {
+   "id": 100,
+   "identifier": "SS_ANNE_KITCHEN",
+   "name": "Ss Anne Kitchen",
+   "width": 7,
+   "height": 8
+  },
+  {
+   "id": 101,
+   "identifier": "SS_ANNE_CAPTAINS_ROOM",
+   "name": "Ss Anne Captains Room",
+   "width": 3,
+   "height": 4
+  },
+  {
+   "id": 102,
+   "identifier": "SS_ANNE_1F_ROOMS",
+   "name": "Ss Anne 1F Rooms",
+   "width": 12,
+   "height": 8
+  },
+  {
+   "id": 103,
+   "identifier": "SS_ANNE_2F_ROOMS",
+   "name": "Ss Anne 2F Rooms",
+   "width": 12,
+   "height": 8
+  },
+  {
+   "id": 104,
+   "identifier": "SS_ANNE_B1F_ROOMS",
+   "name": "Ss Anne B1F Rooms",
+   "width": 12,
+   "height": 8
+  },
+  {
+   "id": 108,
+   "identifier": "VICTORY_ROAD_1F",
+   "name": "Victory Road 1F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 113,
+   "identifier": "LANCES_ROOM",
+   "name": "Lances Room",
+   "width": 13,
+   "height": 13
+  },
+  {
+   "id": 118,
+   "identifier": "HALL_OF_FAME",
+   "name": "Hall Of Fame",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 119,
+   "identifier": "UNDERGROUND_PATH_NORTH_SOUTH",
+   "name": "Underground Path North South",
+   "width": 4,
+   "height": 24
+  },
+  {
+   "id": 120,
+   "identifier": "CHAMPIONS_ROOM",
+   "name": "Champions Room",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 121,
+   "identifier": "UNDERGROUND_PATH_WEST_EAST",
+   "name": "Underground Path West East",
+   "width": 25,
+   "height": 4
+  },
+  {
+   "id": 122,
+   "identifier": "CELADON_MART_1F",
+   "name": "Celadon Mart 1F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 123,
+   "identifier": "CELADON_MART_2F",
+   "name": "Celadon Mart 2F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 124,
+   "identifier": "CELADON_MART_3F",
+   "name": "Celadon Mart 3F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 125,
+   "identifier": "CELADON_MART_4F",
+   "name": "Celadon Mart 4F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 126,
+   "identifier": "CELADON_MART_ROOF",
+   "name": "Celadon Mart Roof",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 127,
+   "identifier": "CELADON_MART_ELEVATOR",
+   "name": "Celadon Mart Elevator",
+   "width": 2,
+   "height": 2
+  },
+  {
+   "id": 128,
+   "identifier": "CELADON_MANSION_1F",
+   "name": "Celadon Mansion 1F",
+   "width": 4,
+   "height": 6
+  },
+  {
+   "id": 129,
+   "identifier": "CELADON_MANSION_2F",
+   "name": "Celadon Mansion 2F",
+   "width": 4,
+   "height": 6
+  },
+  {
+   "id": 130,
+   "identifier": "CELADON_MANSION_3F",
+   "name": "Celadon Mansion 3F",
+   "width": 4,
+   "height": 6
+  },
+  {
+   "id": 131,
+   "identifier": "CELADON_MANSION_ROOF",
+   "name": "Celadon Mansion Roof",
+   "width": 4,
+   "height": 6
+  },
+  {
+   "id": 132,
+   "identifier": "CELADON_MANSION_ROOF_HOUSE",
+   "name": "Celadon Mansion Roof House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 133,
+   "identifier": "CELADON_POKECENTER",
+   "name": "Celadon Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 134,
+   "identifier": "CELADON_GYM",
+   "name": "Celadon Gym",
+   "width": 5,
+   "height": 9
+  },
+  {
+   "id": 135,
+   "identifier": "GAME_CORNER",
+   "name": "Game Corner",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 136,
+   "identifier": "CELADON_MART_5F",
+   "name": "Celadon Mart 5F",
+   "width": 10,
+   "height": 4
+  },
+  {
+   "id": 137,
+   "identifier": "GAME_CORNER_PRIZE_ROOM",
+   "name": "Game Corner Prize Room",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 138,
+   "identifier": "CELADON_DINER",
+   "name": "Celadon Diner",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 139,
+   "identifier": "CELADON_CHIEF_HOUSE",
+   "name": "Celadon Chief House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 140,
+   "identifier": "CELADON_HOTEL",
+   "name": "Celadon Hotel",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 141,
+   "identifier": "LAVENDER_POKECENTER",
+   "name": "Lavender Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 142,
+   "identifier": "POKEMON_TOWER_1F",
+   "name": "Pokemon Tower 1F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 143,
+   "identifier": "POKEMON_TOWER_2F",
+   "name": "Pokemon Tower 2F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 144,
+   "identifier": "POKEMON_TOWER_3F",
+   "name": "Pokemon Tower 3F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 145,
+   "identifier": "POKEMON_TOWER_4F",
+   "name": "Pokemon Tower 4F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 146,
+   "identifier": "POKEMON_TOWER_5F",
+   "name": "Pokemon Tower 5F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 147,
+   "identifier": "POKEMON_TOWER_6F",
+   "name": "Pokemon Tower 6F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 148,
+   "identifier": "POKEMON_TOWER_7F",
+   "name": "Pokemon Tower 7F",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 149,
+   "identifier": "MR_FUJIS_HOUSE",
+   "name": "Mr Fujis House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 150,
+   "identifier": "LAVENDER_MART",
+   "name": "Lavender Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 151,
+   "identifier": "LAVENDER_CUBONE_HOUSE",
+   "name": "Lavender Cubone House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 152,
+   "identifier": "FUCHSIA_MART",
+   "name": "Fuchsia Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 153,
+   "identifier": "FUCHSIA_BILLS_GRANDPAS_HOUSE",
+   "name": "Fuchsia Bills Grandpas House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 154,
+   "identifier": "FUCHSIA_POKECENTER",
+   "name": "Fuchsia Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 155,
+   "identifier": "WARDENS_HOUSE",
+   "name": "Wardens House",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 156,
+   "identifier": "SAFARI_ZONE_GATE",
+   "name": "Safari Zone Gate",
+   "width": 4,
+   "height": 3
+  },
+  {
+   "id": 157,
+   "identifier": "FUCHSIA_GYM",
+   "name": "Fuchsia Gym",
+   "width": 5,
+   "height": 9
+  },
+  {
+   "id": 158,
+   "identifier": "FUCHSIA_MEETING_ROOM",
+   "name": "Fuchsia Meeting Room",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 159,
+   "identifier": "SEAFOAM_ISLANDS_B1F",
+   "name": "Seafoam Islands B1F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 160,
+   "identifier": "SEAFOAM_ISLANDS_B2F",
+   "name": "Seafoam Islands B2F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 161,
+   "identifier": "SEAFOAM_ISLANDS_B3F",
+   "name": "Seafoam Islands B3F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 162,
+   "identifier": "SEAFOAM_ISLANDS_B4F",
+   "name": "Seafoam Islands B4F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 163,
+   "identifier": "VERMILION_OLD_ROD_HOUSE",
+   "name": "Vermilion Old Rod House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 164,
+   "identifier": "FUCHSIA_GOOD_ROD_HOUSE",
+   "name": "Fuchsia Good Rod House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 165,
+   "identifier": "POKEMON_MANSION_1F",
+   "name": "Pokemon Mansion 1F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 166,
+   "identifier": "CINNABAR_GYM",
+   "name": "Cinnabar Gym",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 167,
+   "identifier": "CINNABAR_LAB",
+   "name": "Cinnabar Lab",
+   "width": 9,
+   "height": 4
+  },
+  {
+   "id": 168,
+   "identifier": "CINNABAR_LAB_TRADE_ROOM",
+   "name": "Cinnabar Lab Trade Room",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 169,
+   "identifier": "CINNABAR_LAB_METRONOME_ROOM",
+   "name": "Cinnabar Lab Metronome Room",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 170,
+   "identifier": "CINNABAR_LAB_FOSSIL_ROOM",
+   "name": "Cinnabar Lab Fossil Room",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 171,
+   "identifier": "CINNABAR_POKECENTER",
+   "name": "Cinnabar Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 172,
+   "identifier": "CINNABAR_MART",
+   "name": "Cinnabar Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 173,
+   "identifier": "CINNABAR_MART_COPY",
+   "name": "Cinnabar Mart Copy",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 174,
+   "identifier": "INDIGO_PLATEAU_LOBBY",
+   "name": "Indigo Plateau Lobby",
+   "width": 8,
+   "height": 6
+  },
+  {
+   "id": 175,
+   "identifier": "COPYCATS_HOUSE_1F",
+   "name": "Copycats House 1F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 176,
+   "identifier": "COPYCATS_HOUSE_2F",
+   "name": "Copycats House 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 177,
+   "identifier": "FIGHTING_DOJO",
+   "name": "Fighting Dojo",
+   "width": 5,
+   "height": 6
+  },
+  {
+   "id": 178,
+   "identifier": "SAFFRON_GYM",
+   "name": "Saffron Gym",
+   "width": 10,
+   "height": 9
+  },
+  {
+   "id": 179,
+   "identifier": "SAFFRON_PIDGEY_HOUSE",
+   "name": "Saffron Pidgey House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 180,
+   "identifier": "SAFFRON_MART",
+   "name": "Saffron Mart",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 181,
+   "identifier": "SILPH_CO_1F",
+   "name": "Silph Co 1F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 182,
+   "identifier": "SAFFRON_POKECENTER",
+   "name": "Saffron Pokecenter",
+   "width": 7,
+   "height": 4
+  },
+  {
+   "id": 183,
+   "identifier": "MR_PSYCHICS_HOUSE",
+   "name": "Mr Psychics House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 184,
+   "identifier": "ROUTE_15_GATE_1F",
+   "name": "Route 15 Gate 1F",
+   "width": 4,
+   "height": 5
+  },
+  {
+   "id": 185,
+   "identifier": "ROUTE_15_GATE_2F",
+   "name": "Route 15 Gate 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 186,
+   "identifier": "ROUTE_16_GATE_1F",
+   "name": "Route 16 Gate 1F",
+   "width": 4,
+   "height": 7
+  },
+  {
+   "id": 187,
+   "identifier": "ROUTE_16_GATE_2F",
+   "name": "Route 16 Gate 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 188,
+   "identifier": "ROUTE_16_FLY_HOUSE",
+   "name": "Route 16 Fly House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 189,
+   "identifier": "ROUTE_12_SUPER_ROD_HOUSE",
+   "name": "Route 12 Super Rod House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 190,
+   "identifier": "ROUTE_18_GATE_1F",
+   "name": "Route 18 Gate 1F",
+   "width": 4,
+   "height": 5
+  },
+  {
+   "id": 191,
+   "identifier": "ROUTE_18_GATE_2F",
+   "name": "Route 18 Gate 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 192,
+   "identifier": "SEAFOAM_ISLANDS_1F",
+   "name": "Seafoam Islands 1F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 193,
+   "identifier": "ROUTE_22_GATE",
+   "name": "Route 22 Gate",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 194,
+   "identifier": "VICTORY_ROAD_2F",
+   "name": "Victory Road 2F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 195,
+   "identifier": "ROUTE_12_GATE_2F",
+   "name": "Route 12 Gate 2F",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 196,
+   "identifier": "VERMILION_TRADE_HOUSE",
+   "name": "Vermilion Trade House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 197,
+   "identifier": "DIGLETTS_CAVE",
+   "name": "Digletts Cave",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 198,
+   "identifier": "VICTORY_ROAD_3F",
+   "name": "Victory Road 3F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 199,
+   "identifier": "ROCKET_HIDEOUT_B1F",
+   "name": "Rocket Hideout B1F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 200,
+   "identifier": "ROCKET_HIDEOUT_B2F",
+   "name": "Rocket Hideout B2F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 201,
+   "identifier": "ROCKET_HIDEOUT_B3F",
+   "name": "Rocket Hideout B3F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 202,
+   "identifier": "ROCKET_HIDEOUT_B4F",
+   "name": "Rocket Hideout B4F",
+   "width": 15,
+   "height": 12
+  },
+  {
+   "id": 203,
+   "identifier": "ROCKET_HIDEOUT_ELEVATOR",
+   "name": "Rocket Hideout Elevator",
+   "width": 3,
+   "height": 4
+  },
+  {
+   "id": 207,
+   "identifier": "SILPH_CO_2F",
+   "name": "Silph Co 2F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 208,
+   "identifier": "SILPH_CO_3F",
+   "name": "Silph Co 3F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 209,
+   "identifier": "SILPH_CO_4F",
+   "name": "Silph Co 4F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 210,
+   "identifier": "SILPH_CO_5F",
+   "name": "Silph Co 5F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 211,
+   "identifier": "SILPH_CO_6F",
+   "name": "Silph Co 6F",
+   "width": 13,
+   "height": 9
+  },
+  {
+   "id": 212,
+   "identifier": "SILPH_CO_7F",
+   "name": "Silph Co 7F",
+   "width": 13,
+   "height": 9
+  },
+  {
+   "id": 213,
+   "identifier": "SILPH_CO_8F",
+   "name": "Silph Co 8F",
+   "width": 13,
+   "height": 9
+  },
+  {
+   "id": 214,
+   "identifier": "POKEMON_MANSION_2F",
+   "name": "Pokemon Mansion 2F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 215,
+   "identifier": "POKEMON_MANSION_3F",
+   "name": "Pokemon Mansion 3F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 216,
+   "identifier": "POKEMON_MANSION_B1F",
+   "name": "Pokemon Mansion B1F",
+   "width": 15,
+   "height": 14
+  },
+  {
+   "id": 217,
+   "identifier": "SAFARI_ZONE_EAST",
+   "name": "Safari Zone East",
+   "width": 15,
+   "height": 13
+  },
+  {
+   "id": 218,
+   "identifier": "SAFARI_ZONE_NORTH",
+   "name": "Safari Zone North",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 219,
+   "identifier": "SAFARI_ZONE_WEST",
+   "name": "Safari Zone West",
+   "width": 15,
+   "height": 13
+  },
+  {
+   "id": 220,
+   "identifier": "SAFARI_ZONE_CENTER",
+   "name": "Safari Zone Center",
+   "width": 15,
+   "height": 13
+  },
+  {
+   "id": 221,
+   "identifier": "SAFARI_ZONE_CENTER_REST_HOUSE",
+   "name": "Safari Zone Center Rest House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 222,
+   "identifier": "SAFARI_ZONE_SECRET_HOUSE",
+   "name": "Safari Zone Secret House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 223,
+   "identifier": "SAFARI_ZONE_WEST_REST_HOUSE",
+   "name": "Safari Zone West Rest House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 224,
+   "identifier": "SAFARI_ZONE_EAST_REST_HOUSE",
+   "name": "Safari Zone East Rest House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 225,
+   "identifier": "SAFARI_ZONE_NORTH_REST_HOUSE",
+   "name": "Safari Zone North Rest House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 226,
+   "identifier": "CERULEAN_CAVE_2F",
+   "name": "Cerulean Cave 2F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 227,
+   "identifier": "CERULEAN_CAVE_B1F",
+   "name": "Cerulean Cave B1F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 228,
+   "identifier": "CERULEAN_CAVE_1F",
+   "name": "Cerulean Cave 1F",
+   "width": 15,
+   "height": 9
+  },
+  {
+   "id": 229,
+   "identifier": "NAME_RATERS_HOUSE",
+   "name": "Name Raters House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 230,
+   "identifier": "CERULEAN_BADGE_HOUSE",
+   "name": "Cerulean Badge House",
+   "width": 4,
+   "height": 4
+  },
+  {
+   "id": 232,
+   "identifier": "ROCK_TUNNEL_B1F",
+   "name": "Rock Tunnel B1F",
+   "width": 20,
+   "height": 18
+  },
+  {
+   "id": 233,
+   "identifier": "SILPH_CO_9F",
+   "name": "Silph Co 9F",
+   "width": 13,
+   "height": 9
+  },
+  {
+   "id": 234,
+   "identifier": "SILPH_CO_10F",
+   "name": "Silph Co 10F",
+   "width": 8,
+   "height": 9
+  },
+  {
+   "id": 235,
+   "identifier": "SILPH_CO_11F",
+   "name": "Silph Co 11F",
+   "width": 9,
+   "height": 9
+  },
+  {
+   "id": 236,
+   "identifier": "SILPH_CO_ELEVATOR",
+   "name": "Silph Co Elevator",
+   "width": 2,
+   "height": 2
+  },
+  {
+   "id": 239,
+   "identifier": "TRADE_CENTER",
+   "name": "Trade Center",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 240,
+   "identifier": "COLOSSEUM",
+   "name": "Colosseum",
+   "width": 5,
+   "height": 4
+  },
+  {
+   "id": 245,
+   "identifier": "LORELEIS_ROOM",
+   "name": "Loreleis Room",
+   "width": 5,
+   "height": 6
+  },
+  {
+   "id": 246,
+   "identifier": "BRUNOS_ROOM",
+   "name": "Brunos Room",
+   "width": 5,
+   "height": 6
+  },
+  {
+   "id": 247,
+   "identifier": "AGATHAS_ROOM",
+   "name": "Agathas Room",
+   "width": 5,
+   "height": 6
+  }
+ ],
+ "events": {
+  "EVENT_FOLLOWED_OAK_INTO_LAB": 0,
+  "EVENT_HALL_OF_FAME_DEX_RATING": 3,
+  "EVENT_PALLET_AFTER_GETTING_POKEBALLS": 6,
+  "EVENT_GOT_TOWN_MAP": 24,
+  "EVENT_ENTERED_BLUES_HOUSE": 25,
+  "EVENT_DAISY_WALKING": 26,
+  "EVENT_FOLLOWED_OAK_INTO_LAB_2": 32,
+  "EVENT_OAK_ASKED_TO_CHOOSE_MON": 33,
+  "EVENT_GOT_STARTER": 34,
+  "EVENT_BATTLED_RIVAL_IN_OAKS_LAB": 35,
+  "EVENT_GOT_POKEBALLS_FROM_OAK": 36,
+  "EVENT_GOT_POKEDEX": 37,
+  "EVENT_PALLET_AFTER_GETTING_POKEBALLS_2": 38,
+  "EVENT_OAK_APPEARED_IN_PALLET": 39,
+  "EVENT_VIRIDIAN_GYM_OPEN": 40,
+  "EVENT_GOT_TM42": 41,
+  "EVENT_OAK_GOT_PARCEL": 56,
+  "EVENT_GOT_OAKS_PARCEL": 57,
+  "EVENT_GOT_TM27": 80,
+  "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI": 81,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_0": 82,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_1": 83,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_2": 84,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_3": 85,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_4": 86,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_5": 87,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_6": 88,
+  "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_7": 89,
+  "EVENT_BOUGHT_MUSEUM_TICKET": 104,
+  "EVENT_GOT_OLD_AMBER": 105,
+  "EVENT_BEAT_PEWTER_GYM_TRAINER_0": 114,
+  "EVENT_GOT_TM34": 118,
+  "EVENT_BEAT_BROCK": 119,
+  "EVENT_BEAT_CERULEAN_RIVAL": 152,
+  "EVENT_BEAT_CERULEAN_ROCKET_THIEF": 167,
+  "EVENT_BEAT_CERULEAN_GYM_TRAINER_0": 186,
+  "EVENT_BEAT_CERULEAN_GYM_TRAINER_1": 187,
+  "EVENT_GOT_TM11": 190,
+  "EVENT_BEAT_MISTY": 191,
+  "EVENT_GOT_BICYCLE": 192,
+  "EVENT_POKEMON_TOWER_RIVAL_ON_LEFT": 238,
+  "EVENT_BEAT_POKEMON_TOWER_RIVAL": 239,
+  "EVENT_BEAT_POKEMONTOWER_3_TRAINER_0": 241,
+  "EVENT_BEAT_POKEMONTOWER_3_TRAINER_1": 242,
+  "EVENT_BEAT_POKEMONTOWER_3_TRAINER_2": 243,
+  "EVENT_BEAT_POKEMONTOWER_4_TRAINER_0": 249,
+  "EVENT_BEAT_POKEMONTOWER_4_TRAINER_1": 250,
+  "EVENT_BEAT_POKEMONTOWER_4_TRAINER_2": 251,
+  "EVENT_BEAT_POKEMONTOWER_5_TRAINER_0": 258,
+  "EVENT_BEAT_POKEMONTOWER_5_TRAINER_1": 259,
+  "EVENT_BEAT_POKEMONTOWER_5_TRAINER_2": 260,
+  "EVENT_BEAT_POKEMONTOWER_5_TRAINER_3": 261,
+  "EVENT_IN_PURIFIED_ZONE": 263,
+  "EVENT_BEAT_POKEMONTOWER_6_TRAINER_0": 265,
+  "EVENT_BEAT_POKEMONTOWER_6_TRAINER_1": 266,
+  "EVENT_BEAT_POKEMONTOWER_6_TRAINER_2": 267,
+  "EVENT_BEAT_GHOST_MAROWAK": 271,
+  "EVENT_BEAT_POKEMONTOWER_7_TRAINER_0": 273,
+  "EVENT_BEAT_POKEMONTOWER_7_TRAINER_1": 274,
+  "EVENT_BEAT_POKEMONTOWER_7_TRAINER_2": 275,
+  "EVENT_RESCUED_MR_FUJI_2": 279,
+  "EVENT_GOT_POKE_FLUTE": 296,
+  "EVENT_GOT_BIKE_VOUCHER": 337,
+  "EVENT_SEEL_FAN_BOAST": 342,
+  "EVENT_PIKACHU_FAN_BOAST": 343,
+  "EVENT_2ND_LOCK_OPENED": 352,
+  "EVENT_1ST_LOCK_OPENED": 353,
+  "EVENT_BEAT_VERMILION_GYM_TRAINER_0": 354,
+  "EVENT_BEAT_VERMILION_GYM_TRAINER_1": 355,
+  "EVENT_BEAT_VERMILION_GYM_TRAINER_2": 356,
+  "EVENT_GOT_TM24": 358,
+  "EVENT_BEAT_LT_SURGE": 359,
+  "EVENT_GOT_TM41": 384,
+  "EVENT_GOT_TM13": 396,
+  "EVENT_GOT_TM48": 397,
+  "EVENT_GOT_TM49": 398,
+  "EVENT_GOT_TM18": 399,
+  "EVENT_GOT_TM21": 424,
+  "EVENT_BEAT_ERIKA": 425,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_0": 426,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_1": 427,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_2": 428,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_3": 429,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_4": 430,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_5": 431,
+  "EVENT_BEAT_CELADON_GYM_TRAINER_6": 432,
+  "EVENT_1B8": 440,
+  "EVENT_FOUND_ROCKET_HIDEOUT": 441,
+  "EVENT_GOT_10_COINS": 442,
+  "EVENT_GOT_20_COINS": 443,
+  "EVENT_GOT_20_COINS_2": 444,
+  "EVENT_1BF": 447,
+  "EVENT_GOT_COIN_CASE": 480,
+  "EVENT_GOT_HM04": 568,
+  "EVENT_GAVE_GOLD_TEETH": 569,
+  "EVENT_SAFARI_GAME_OVER": 590,
+  "EVENT_IN_SAFARI_ZONE": 591,
+  "EVENT_GOT_TM06": 600,
+  "EVENT_BEAT_KOGA": 601,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_0": 602,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_1": 603,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_2": 604,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_3": 605,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_4": 606,
+  "EVENT_BEAT_FUCHSIA_GYM_TRAINER_5": 607,
+  "EVENT_MANSION_SWITCH_ON": 632,
+  "EVENT_BEAT_MANSION_1_TRAINER_0": 649,
+  "EVENT_GOT_TM38": 664,
+  "EVENT_BEAT_BLAINE": 665,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_0": 666,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_1": 667,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_2": 668,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_3": 669,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_4": 670,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_5": 671,
+  "EVENT_BEAT_CINNABAR_GYM_TRAINER_6": 672,
+  "EVENT_2A7": 679,
+  "EVENT_CINNABAR_GYM_GATE0_UNLOCKED": 680,
+  "EVENT_CINNABAR_GYM_GATE1_UNLOCKED": 681,
+  "EVENT_CINNABAR_GYM_GATE2_UNLOCKED": 682,
+  "EVENT_CINNABAR_GYM_GATE3_UNLOCKED": 683,
+  "EVENT_CINNABAR_GYM_GATE4_UNLOCKED": 684,
+  "EVENT_CINNABAR_GYM_GATE5_UNLOCKED": 685,
+  "EVENT_CINNABAR_GYM_GATE6_UNLOCKED": 686,
+  "EVENT_GOT_TM35": 727,
+  "EVENT_GAVE_FOSSIL_TO_LAB": 736,
+  "EVENT_LAB_STILL_REVIVING_FOSSIL": 737,
+  "EVENT_LAB_HANDING_OVER_FOSSIL_MON": 738,
+  "EVENT_GOT_TM31": 832,
+  "EVENT_DEFEATED_FIGHTING_DOJO": 848,
+  "EVENT_BEAT_KARATE_MASTER": 849,
+  "EVENT_BEAT_FIGHTING_DOJO_TRAINER_0": 850,
+  "EVENT_BEAT_FIGHTING_DOJO_TRAINER_1": 851,
+  "EVENT_BEAT_FIGHTING_DOJO_TRAINER_2": 852,
+  "EVENT_BEAT_FIGHTING_DOJO_TRAINER_3": 853,
+  "EVENT_GOT_HITMONLEE": 854,
+  "EVENT_GOT_HITMONCHAN": 855,
+  "EVENT_GOT_TM46": 864,
+  "EVENT_BEAT_SABRINA": 865,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_0": 866,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_1": 867,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_2": 868,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_3": 869,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_4": 870,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_5": 871,
+  "EVENT_BEAT_SAFFRON_GYM_TRAINER_6": 872,
+  "EVENT_SILPH_CO_RECEPTIONIST_AT_DESK": 919,
+  "EVENT_GOT_TM29": 944,
+  "EVENT_GOT_POTION_SAMPLE": 960,
+  "EVENT_GOT_HM05": 984,
+  "EVENT_BEAT_ROUTE_3_TRAINER_0": 994,
+  "EVENT_BEAT_ROUTE_3_TRAINER_1": 995,
+  "EVENT_BEAT_ROUTE_3_TRAINER_2": 996,
+  "EVENT_BEAT_ROUTE_3_TRAINER_3": 997,
+  "EVENT_BEAT_ROUTE_3_TRAINER_4": 998,
+  "EVENT_BEAT_ROUTE_3_TRAINER_5": 999,
+  "EVENT_BEAT_ROUTE_3_TRAINER_6": 1000,
+  "EVENT_BEAT_ROUTE_3_TRAINER_7": 1001,
+  "EVENT_BEAT_ROUTE_4_TRAINER_0": 1010,
+  "EVENT_BOUGHT_MAGIKARP": 1023,
+  "EVENT_BEAT_ROUTE_6_TRAINER_0": 1041,
+  "EVENT_BEAT_ROUTE_6_TRAINER_1": 1042,
+  "EVENT_BEAT_ROUTE_6_TRAINER_2": 1043,
+  "EVENT_BEAT_ROUTE_6_TRAINER_3": 1044,
+  "EVENT_BEAT_ROUTE_6_TRAINER_4": 1045,
+  "EVENT_BEAT_ROUTE_6_TRAINER_5": 1046,
+  "EVENT_BEAT_ROUTE_8_TRAINER_0": 1073,
+  "EVENT_BEAT_ROUTE_8_TRAINER_1": 1074,
+  "EVENT_BEAT_ROUTE_8_TRAINER_2": 1075,
+  "EVENT_BEAT_ROUTE_8_TRAINER_3": 1076,
+  "EVENT_BEAT_ROUTE_8_TRAINER_4": 1077,
+  "EVENT_BEAT_ROUTE_8_TRAINER_5": 1078,
+  "EVENT_BEAT_ROUTE_8_TRAINER_6": 1079,
+  "EVENT_BEAT_ROUTE_8_TRAINER_7": 1080,
+  "EVENT_BEAT_ROUTE_8_TRAINER_8": 1081,
+  "EVENT_BEAT_ROUTE_9_TRAINER_0": 1089,
+  "EVENT_BEAT_ROUTE_9_TRAINER_1": 1090,
+  "EVENT_BEAT_ROUTE_9_TRAINER_2": 1091,
+  "EVENT_BEAT_ROUTE_9_TRAINER_3": 1092,
+  "EVENT_BEAT_ROUTE_9_TRAINER_4": 1093,
+  "EVENT_BEAT_ROUTE_9_TRAINER_5": 1094,
+  "EVENT_BEAT_ROUTE_9_TRAINER_6": 1095,
+  "EVENT_BEAT_ROUTE_9_TRAINER_7": 1096,
+  "EVENT_BEAT_ROUTE_9_TRAINER_8": 1097,
+  "EVENT_BEAT_ROUTE_10_TRAINER_0": 1105,
+  "EVENT_BEAT_ROUTE_10_TRAINER_1": 1106,
+  "EVENT_BEAT_ROUTE_10_TRAINER_2": 1107,
+  "EVENT_BEAT_ROUTE_10_TRAINER_3": 1108,
+  "EVENT_BEAT_ROUTE_10_TRAINER_4": 1109,
+  "EVENT_BEAT_ROUTE_10_TRAINER_5": 1110,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_0": 1113,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_1": 1114,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_2": 1115,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_3": 1116,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_4": 1117,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_5": 1118,
+  "EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_6": 1119,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_0": 1121,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_1": 1122,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_2": 1123,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_3": 1124,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_4": 1125,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_5": 1126,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_6": 1127,
+  "EVENT_BEAT_POWER_PLANT_VOLTORB_7": 1128,
+  "EVENT_BEAT_ZAPDOS": 1129,
+  "EVENT_BEAT_ROUTE_11_TRAINER_0": 1137,
+  "EVENT_BEAT_ROUTE_11_TRAINER_1": 1138,
+  "EVENT_BEAT_ROUTE_11_TRAINER_2": 1139,
+  "EVENT_BEAT_ROUTE_11_TRAINER_3": 1140,
+  "EVENT_BEAT_ROUTE_11_TRAINER_4": 1141,
+  "EVENT_BEAT_ROUTE_11_TRAINER_5": 1142,
+  "EVENT_BEAT_ROUTE_11_TRAINER_6": 1143,
+  "EVENT_BEAT_ROUTE_11_TRAINER_7": 1144,
+  "EVENT_BEAT_ROUTE_11_TRAINER_8": 1145,
+  "EVENT_BEAT_ROUTE_11_TRAINER_9": 1146,
+  "EVENT_GOT_ITEMFINDER": 1151,
+  "EVENT_GOT_TM39": 1152,
+  "EVENT_BEAT_ROUTE_12_TRAINER_0": 1154,
+  "EVENT_BEAT_ROUTE_12_TRAINER_1": 1155,
+  "EVENT_BEAT_ROUTE_12_TRAINER_2": 1156,
+  "EVENT_BEAT_ROUTE_12_TRAINER_3": 1157,
+  "EVENT_BEAT_ROUTE_12_TRAINER_4": 1158,
+  "EVENT_BEAT_ROUTE_12_TRAINER_5": 1159,
+  "EVENT_BEAT_ROUTE_12_TRAINER_6": 1160,
+  "EVENT_FIGHT_ROUTE12_SNORLAX": 1166,
+  "EVENT_BEAT_ROUTE12_SNORLAX": 1167,
+  "EVENT_BEAT_ROUTE_13_TRAINER_0": 1169,
+  "EVENT_BEAT_ROUTE_13_TRAINER_1": 1170,
+  "EVENT_BEAT_ROUTE_13_TRAINER_2": 1171,
+  "EVENT_BEAT_ROUTE_13_TRAINER_3": 1172,
+  "EVENT_BEAT_ROUTE_13_TRAINER_4": 1173,
+  "EVENT_BEAT_ROUTE_13_TRAINER_5": 1174,
+  "EVENT_BEAT_ROUTE_13_TRAINER_6": 1175,
+  "EVENT_BEAT_ROUTE_13_TRAINER_7": 1176,
+  "EVENT_BEAT_ROUTE_13_TRAINER_8": 1177,
+  "EVENT_BEAT_ROUTE_13_TRAINER_9": 1178,
+  "EVENT_BEAT_ROUTE_14_TRAINER_0": 1185,
+  "EVENT_BEAT_ROUTE_14_TRAINER_1": 1186,
+  "EVENT_BEAT_ROUTE_14_TRAINER_2": 1187,
+  "EVENT_BEAT_ROUTE_14_TRAINER_3": 1188,
+  "EVENT_BEAT_ROUTE_14_TRAINER_4": 1189,
+  "EVENT_BEAT_ROUTE_14_TRAINER_5": 1190,
+  "EVENT_BEAT_ROUTE_14_TRAINER_6": 1191,
+  "EVENT_BEAT_ROUTE_14_TRAINER_7": 1192,
+  "EVENT_BEAT_ROUTE_14_TRAINER_8": 1193,
+  "EVENT_BEAT_ROUTE_14_TRAINER_9": 1194,
+  "EVENT_GOT_EXP_ALL": 1200,
+  "EVENT_BEAT_ROUTE_15_TRAINER_0": 1201,
+  "EVENT_BEAT_ROUTE_15_TRAINER_1": 1202,
+  "EVENT_BEAT_ROUTE_15_TRAINER_2": 1203,
+  "EVENT_BEAT_ROUTE_15_TRAINER_3": 1204,
+  "EVENT_BEAT_ROUTE_15_TRAINER_4": 1205,
+  "EVENT_BEAT_ROUTE_15_TRAINER_5": 1206,
+  "EVENT_BEAT_ROUTE_15_TRAINER_6": 1207,
+  "EVENT_BEAT_ROUTE_15_TRAINER_7": 1208,
+  "EVENT_BEAT_ROUTE_15_TRAINER_8": 1209,
+  "EVENT_BEAT_ROUTE_15_TRAINER_9": 1210,
+  "EVENT_BEAT_ROUTE_16_TRAINER_0": 1217,
+  "EVENT_BEAT_ROUTE_16_TRAINER_1": 1218,
+  "EVENT_BEAT_ROUTE_16_TRAINER_2": 1219,
+  "EVENT_BEAT_ROUTE_16_TRAINER_3": 1220,
+  "EVENT_BEAT_ROUTE_16_TRAINER_4": 1221,
+  "EVENT_BEAT_ROUTE_16_TRAINER_5": 1222,
+  "EVENT_FIGHT_ROUTE16_SNORLAX": 1224,
+  "EVENT_BEAT_ROUTE16_SNORLAX": 1225,
+  "EVENT_GOT_HM02": 1230,
+  "EVENT_RESCUED_MR_FUJI": 1231,
+  "EVENT_BEAT_ROUTE_17_TRAINER_0": 1233,
+  "EVENT_BEAT_ROUTE_17_TRAINER_1": 1234,
+  "EVENT_BEAT_ROUTE_17_TRAINER_2": 1235,
+  "EVENT_BEAT_ROUTE_17_TRAINER_3": 1236,
+  "EVENT_BEAT_ROUTE_17_TRAINER_4": 1237,
+  "EVENT_BEAT_ROUTE_17_TRAINER_5": 1238,
+  "EVENT_BEAT_ROUTE_17_TRAINER_6": 1239,
+  "EVENT_BEAT_ROUTE_17_TRAINER_7": 1240,
+  "EVENT_BEAT_ROUTE_17_TRAINER_8": 1241,
+  "EVENT_BEAT_ROUTE_17_TRAINER_9": 1242,
+  "EVENT_BEAT_ROUTE_18_TRAINER_0": 1249,
+  "EVENT_BEAT_ROUTE_18_TRAINER_1": 1250,
+  "EVENT_BEAT_ROUTE_18_TRAINER_2": 1251,
+  "EVENT_BEAT_ROUTE_19_TRAINER_0": 1265,
+  "EVENT_BEAT_ROUTE_19_TRAINER_1": 1266,
+  "EVENT_BEAT_ROUTE_19_TRAINER_2": 1267,
+  "EVENT_BEAT_ROUTE_19_TRAINER_3": 1268,
+  "EVENT_BEAT_ROUTE_19_TRAINER_4": 1269,
+  "EVENT_BEAT_ROUTE_19_TRAINER_5": 1270,
+  "EVENT_BEAT_ROUTE_19_TRAINER_6": 1271,
+  "EVENT_BEAT_ROUTE_19_TRAINER_7": 1272,
+  "EVENT_BEAT_ROUTE_19_TRAINER_8": 1273,
+  "EVENT_BEAT_ROUTE_19_TRAINER_9": 1274,
+  "EVENT_IN_SEAFOAM_ISLANDS": 1280,
+  "EVENT_BEAT_ROUTE_20_TRAINER_0": 1281,
+  "EVENT_BEAT_ROUTE_20_TRAINER_1": 1282,
+  "EVENT_BEAT_ROUTE_20_TRAINER_2": 1283,
+  "EVENT_BEAT_ROUTE_20_TRAINER_3": 1284,
+  "EVENT_BEAT_ROUTE_20_TRAINER_4": 1285,
+  "EVENT_BEAT_ROUTE_20_TRAINER_5": 1286,
+  "EVENT_BEAT_ROUTE_20_TRAINER_6": 1287,
+  "EVENT_BEAT_ROUTE_20_TRAINER_7": 1288,
+  "EVENT_BEAT_ROUTE_20_TRAINER_8": 1289,
+  "EVENT_BEAT_ROUTE_20_TRAINER_9": 1290,
+  "EVENT_SEAFOAM1_BOULDER1_DOWN_HOLE": 1294,
+  "EVENT_SEAFOAM1_BOULDER2_DOWN_HOLE": 1295,
+  "EVENT_BEAT_ROUTE_21_TRAINER_0": 1297,
+  "EVENT_BEAT_ROUTE_21_TRAINER_1": 1298,
+  "EVENT_BEAT_ROUTE_21_TRAINER_2": 1299,
+  "EVENT_BEAT_ROUTE_21_TRAINER_3": 1300,
+  "EVENT_BEAT_ROUTE_21_TRAINER_4": 1301,
+  "EVENT_BEAT_ROUTE_21_TRAINER_5": 1302,
+  "EVENT_BEAT_ROUTE_21_TRAINER_6": 1303,
+  "EVENT_BEAT_ROUTE_21_TRAINER_7": 1304,
+  "EVENT_BEAT_ROUTE_21_TRAINER_8": 1305,
+  "EVENT_1ST_ROUTE22_RIVAL_BATTLE": 1312,
+  "EVENT_2ND_ROUTE22_RIVAL_BATTLE": 1313,
+  "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE": 1317,
+  "EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE": 1318,
+  "EVENT_ROUTE22_RIVAL_WANTS_BATTLE": 1319,
+  "EVENT_PASSED_CASCADEBADGE_CHECK": 1328,
+  "EVENT_PASSED_THUNDERBADGE_CHECK": 1329,
+  "EVENT_PASSED_RAINBOWBADGE_CHECK": 1330,
+  "EVENT_PASSED_SOULBADGE_CHECK": 1331,
+  "EVENT_PASSED_MARSHBADGE_CHECK": 1332,
+  "EVENT_PASSED_VOLCANOBADGE_CHECK": 1333,
+  "EVENT_PASSED_EARTHBADGE_CHECK": 1334,
+  "EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH1": 1336,
+  "EVENT_BEAT_VICTORY_ROAD_2_TRAINER_0": 1337,
+  "EVENT_BEAT_VICTORY_ROAD_2_TRAINER_1": 1338,
+  "EVENT_BEAT_VICTORY_ROAD_2_TRAINER_2": 1339,
+  "EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3": 1340,
+  "EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4": 1341,
+  "EVENT_BEAT_MOLTRES": 1342,
+  "EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH2": 1343,
+  "EVENT_GOT_NUGGET": 1344,
+  "EVENT_BEAT_ROUTE24_ROCKET": 1345,
+  "EVENT_BEAT_ROUTE_24_TRAINER_0": 1346,
+  "EVENT_BEAT_ROUTE_24_TRAINER_1": 1347,
+  "EVENT_BEAT_ROUTE_24_TRAINER_2": 1348,
+  "EVENT_BEAT_ROUTE_24_TRAINER_3": 1349,
+  "EVENT_BEAT_ROUTE_24_TRAINER_4": 1350,
+  "EVENT_BEAT_ROUTE_24_TRAINER_5": 1351,
+  "EVENT_NUGGET_REWARD_AVAILABLE": 1353,
+  "EVENT_MET_BILL": 1360,
+  "EVENT_BEAT_ROUTE_25_TRAINER_0": 1361,
+  "EVENT_BEAT_ROUTE_25_TRAINER_1": 1362,
+  "EVENT_BEAT_ROUTE_25_TRAINER_2": 1363,
+  "EVENT_BEAT_ROUTE_25_TRAINER_3": 1364,
+  "EVENT_BEAT_ROUTE_25_TRAINER_4": 1365,
+  "EVENT_BEAT_ROUTE_25_TRAINER_5": 1366,
+  "EVENT_BEAT_ROUTE_25_TRAINER_6": 1367,
+  "EVENT_BEAT_ROUTE_25_TRAINER_7": 1368,
+  "EVENT_BEAT_ROUTE_25_TRAINER_8": 1369,
+  "EVENT_USED_CELL_SEPARATOR_ON_BILL": 1371,
+  "EVENT_GOT_SS_TICKET": 1372,
+  "EVENT_MET_BILL_2": 1373,
+  "EVENT_BILL_SAID_USE_CELL_SEPARATOR": 1374,
+  "EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING": 1375,
+  "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_0": 1378,
+  "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_1": 1379,
+  "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2": 1380,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_0": 1393,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_1": 1394,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_2": 1395,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_3": 1396,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_4": 1397,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_5": 1398,
+  "EVENT_BEAT_MT_MOON_1_TRAINER_6": 1399,
+  "EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD": 1401,
+  "EVENT_BEAT_MT_MOON_3_TRAINER_0": 1402,
+  "EVENT_BEAT_MT_MOON_3_TRAINER_1": 1403,
+  "EVENT_BEAT_MT_MOON_3_TRAINER_2": 1404,
+  "EVENT_BEAT_MT_MOON_3_TRAINER_3": 1405,
+  "EVENT_GOT_DOME_FOSSIL": 1406,
+  "EVENT_GOT_HELIX_FOSSIL": 1407,
+  "EVENT_BEAT_SS_ANNE_5_TRAINER_0": 1476,
+  "EVENT_BEAT_SS_ANNE_5_TRAINER_1": 1477,
+  "EVENT_GOT_HM01": 1504,
+  "EVENT_RUBBED_CAPTAINS_BACK": 1505,
+  "EVENT_SS_ANNE_LEFT": 1506,
+  "EVENT_WALKED_PAST_GUARD_AFTER_SS_ANNE_LEFT": 1507,
+  "EVENT_STARTED_WALKING_OUT_OF_DOCK": 1508,
+  "EVENT_WALKED_OUT_OF_DOCK": 1509,
+  "EVENT_BEAT_SS_ANNE_8_TRAINER_0": 1521,
+  "EVENT_BEAT_SS_ANNE_8_TRAINER_1": 1522,
+  "EVENT_BEAT_SS_ANNE_8_TRAINER_2": 1523,
+  "EVENT_BEAT_SS_ANNE_8_TRAINER_3": 1524,
+  "EVENT_BEAT_SS_ANNE_9_TRAINER_0": 1537,
+  "EVENT_BEAT_SS_ANNE_9_TRAINER_1": 1538,
+  "EVENT_BEAT_SS_ANNE_9_TRAINER_2": 1539,
+  "EVENT_BEAT_SS_ANNE_9_TRAINER_3": 1540,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_0": 1553,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_1": 1554,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_2": 1555,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_3": 1556,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_4": 1557,
+  "EVENT_BEAT_SS_ANNE_10_TRAINER_5": 1558,
+  "EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH1": 1632,
+  "EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0": 1633,
+  "EVENT_BEAT_VICTORY_ROAD_3_TRAINER_1": 1634,
+  "EVENT_BEAT_VICTORY_ROAD_3_TRAINER_2": 1635,
+  "EVENT_BEAT_VICTORY_ROAD_3_TRAINER_3": 1636,
+  "EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH2": 1638,
+  "EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_0": 1649,
+  "EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_1": 1650,
+  "EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_2": 1651,
+  "EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_3": 1652,
+  "EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_4": 1653,
+  "EVENT_ENTERED_ROCKET_HIDEOUT": 1655,
+  "EVENT_67F": 1663,
+  "EVENT_BEAT_ROCKET_HIDEOUT_2_TRAINER_0": 1665,
+  "EVENT_BEAT_ROCKET_HIDEOUT_3_TRAINER_0": 1681,
+  "EVENT_BEAT_ROCKET_HIDEOUT_3_TRAINER_1": 1682,
+  "EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_0": 1698,
+  "EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_1": 1699,
+  "EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_2": 1700,
+  "EVENT_ROCKET_HIDEOUT_4_DOOR_UNLOCKED": 1701,
+  "EVENT_ROCKET_DROPPED_LIFT_KEY": 1702,
+  "EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI": 1703,
+  "EVENT_BEAT_SILPH_CO_2F_TRAINER_0": 1778,
+  "EVENT_BEAT_SILPH_CO_2F_TRAINER_1": 1779,
+  "EVENT_BEAT_SILPH_CO_2F_TRAINER_2": 1780,
+  "EVENT_BEAT_SILPH_CO_2F_TRAINER_3": 1781,
+  "EVENT_SILPH_CO_2_UNLOCKED_DOOR1": 1789,
+  "EVENT_SILPH_CO_2_UNLOCKED_DOOR2": 1790,
+  "EVENT_GOT_TM36": 1791,
+  "EVENT_BEAT_SILPH_CO_3F_TRAINER_0": 1794,
+  "EVENT_BEAT_SILPH_CO_3F_TRAINER_1": 1795,
+  "EVENT_SILPH_CO_3_UNLOCKED_DOOR1": 1800,
+  "EVENT_SILPH_CO_3_UNLOCKED_DOOR2": 1801,
+  "EVENT_BEAT_SILPH_CO_4F_TRAINER_0": 1810,
+  "EVENT_BEAT_SILPH_CO_4F_TRAINER_1": 1811,
+  "EVENT_BEAT_SILPH_CO_4F_TRAINER_2": 1812,
+  "EVENT_SILPH_CO_4_UNLOCKED_DOOR1": 1816,
+  "EVENT_SILPH_CO_4_UNLOCKED_DOOR2": 1817,
+  "EVENT_BEAT_SILPH_CO_5F_TRAINER_0": 1826,
+  "EVENT_BEAT_SILPH_CO_5F_TRAINER_1": 1827,
+  "EVENT_BEAT_SILPH_CO_5F_TRAINER_2": 1828,
+  "EVENT_BEAT_SILPH_CO_5F_TRAINER_3": 1829,
+  "EVENT_SILPH_CO_5_UNLOCKED_DOOR1": 1832,
+  "EVENT_SILPH_CO_5_UNLOCKED_DOOR2": 1833,
+  "EVENT_SILPH_CO_5_UNLOCKED_DOOR3": 1834,
+  "EVENT_BEAT_SILPH_CO_6F_TRAINER_0": 1846,
+  "EVENT_BEAT_SILPH_CO_6F_TRAINER_1": 1847,
+  "EVENT_BEAT_SILPH_CO_6F_TRAINER_2": 1848,
+  "EVENT_SILPH_CO_6_UNLOCKED_DOOR": 1855,
+  "EVENT_BEAT_SILPH_CO_RIVAL": 1856,
+  "EVENT_BEAT_SILPH_CO_7F_TRAINER_0": 1861,
+  "EVENT_BEAT_SILPH_CO_7F_TRAINER_1": 1862,
+  "EVENT_BEAT_SILPH_CO_7F_TRAINER_2": 1863,
+  "EVENT_BEAT_SILPH_CO_7F_TRAINER_3": 1864,
+  "EVENT_SILPH_CO_7_UNLOCKED_DOOR1": 1868,
+  "EVENT_SILPH_CO_7_UNLOCKED_DOOR2": 1869,
+  "EVENT_SILPH_CO_7_UNLOCKED_DOOR3": 1870,
+  "EVENT_BEAT_SILPH_CO_8F_TRAINER_0": 1874,
+  "EVENT_BEAT_SILPH_CO_8F_TRAINER_1": 1875,
+  "EVENT_BEAT_SILPH_CO_8F_TRAINER_2": 1876,
+  "EVENT_SILPH_CO_8_UNLOCKED_DOOR": 1880,
+  "EVENT_BEAT_SILPH_CO_9F_TRAINER_0": 1890,
+  "EVENT_BEAT_SILPH_CO_9F_TRAINER_1": 1891,
+  "EVENT_BEAT_SILPH_CO_9F_TRAINER_2": 1892,
+  "EVENT_SILPH_CO_9_UNLOCKED_DOOR1": 1896,
+  "EVENT_SILPH_CO_9_UNLOCKED_DOOR2": 1897,
+  "EVENT_SILPH_CO_9_UNLOCKED_DOOR3": 1898,
+  "EVENT_SILPH_CO_9_UNLOCKED_DOOR4": 1899,
+  "EVENT_BEAT_SILPH_CO_10F_TRAINER_0": 1905,
+  "EVENT_BEAT_SILPH_CO_10F_TRAINER_1": 1906,
+  "EVENT_SILPH_CO_10_UNLOCKED_DOOR": 1912,
+  "EVENT_BEAT_SILPH_CO_11F_TRAINER_0": 1924,
+  "EVENT_BEAT_SILPH_CO_11F_TRAINER_1": 1925,
+  "EVENT_SILPH_CO_11_UNLOCKED_DOOR": 1928,
+  "EVENT_GOT_MASTER_BALL": 1933,
+  "EVENT_BEAT_SILPH_CO_GIOVANNI": 1935,
+  "EVENT_BEAT_MANSION_2_TRAINER_0": 2049,
+  "EVENT_BEAT_MANSION_3_TRAINER_0": 2065,
+  "EVENT_BEAT_MANSION_3_TRAINER_1": 2066,
+  "EVENT_BEAT_MANSION_4_TRAINER_0": 2081,
+  "EVENT_BEAT_MANSION_4_TRAINER_1": 2082,
+  "EVENT_GOT_HM03": 2176,
+  "EVENT_BEAT_MEWTWO": 2241,
+  "EVENT_BEAT_LORELEIS_ROOM_TRAINER_0": 2273,
+  "EVENT_AUTOWALKED_INTO_LORELEIS_ROOM": 2278,
+  "EVENT_BEAT_BRUNOS_ROOM_TRAINER_0": 2281,
+  "EVENT_AUTOWALKED_INTO_BRUNOS_ROOM": 2286,
+  "EVENT_BEAT_AGATHAS_ROOM_TRAINER_0": 2289,
+  "EVENT_AUTOWALKED_INTO_AGATHAS_ROOM": 2294,
+  "EVENT_BEAT_LANCES_ROOM_TRAINER_0": 2297,
+  "EVENT_BEAT_LANCE": 2302,
+  "EVENT_LANCES_ROOM_LOCK_DOOR": 2303,
+  "EVENT_BEAT_CHAMPION_RIVAL": 2305,
+  "EVENT_BEAT_VICTORY_ROAD_1_TRAINER_0": 2321,
+  "EVENT_BEAT_VICTORY_ROAD_1_TRAINER_1": 2322,
+  "EVENT_VICTORY_ROAD_1_BOULDER_ON_SWITCH": 2327,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_0": 2481,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_1": 2482,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_2": 2483,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_3": 2484,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_4": 2485,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_5": 2486,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_6": 2487,
+  "EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_7": 2488,
+  "EVENT_SEAFOAM2_BOULDER1_DOWN_HOLE": 2496,
+  "EVENT_SEAFOAM2_BOULDER2_DOWN_HOLE": 2497,
+  "EVENT_SEAFOAM3_BOULDER1_DOWN_HOLE": 2504,
+  "EVENT_SEAFOAM3_BOULDER2_DOWN_HOLE": 2505,
+  "EVENT_SEAFOAM4_BOULDER1_DOWN_HOLE": 2512,
+  "EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE": 2513,
+  "EVENT_BEAT_ARTICUNO": 2522
+ }
+}
